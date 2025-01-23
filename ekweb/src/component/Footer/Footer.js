@@ -125,16 +125,7 @@ const Footer = () => {
               <div className='center1'><h4 className='footerhead'>Connect With Us</h4></div>
               <div className='relative mt-5'>
                 <form onSubmit={handleSubmit}>
-                  <input
-                    type='email'
-                    id='email'
-                    className='footerinput'
-                    placeholder='Email Address'
-                    name='email'
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })} // Update the state
-                  />
-
+                  <input type='email' id='email' className='footerinput' placeholder='Email Address' name='email' value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })}/>
                   <button type='submit' className='footerbutton' aria-label="Subscribe">
                     <FaArrowRight className='buttonright' />
                   </button>
