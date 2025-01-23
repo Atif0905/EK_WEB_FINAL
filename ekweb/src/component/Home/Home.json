@@ -1,0 +1,208 @@
+{
+  "HomeHero": [
+    {
+      "subhead": "EKAKSHAR BUILDTECH",
+      "head": "Where every project is a promise of excellence.",
+      "text": "Ekakshar Buildtech is your trusted partner in innovative construction solutions, delivering high-quality, sustainable, and modern building projects tailored to your needs.",
+      "formhead": "Get In Touch"
+    }
+  ],
+  "HomeSlide": [
+    {
+        "img": "/bliss-home.webp",
+        "keyword" : "Property In Dehradun"
+      },
+      {
+        "img": "/inner-green-farm2.webp",
+        "keyword" : "Property In Jewar"
+      },  {
+        "img": "/woodshome.webp",
+        "keyword" : "Plots In Jewar"
+      },
+      {
+        "img": "/shyamhome.webp",
+        "keyword" : "Property near Khatu Shyam"
+      },
+      {
+        "img": "/aerohome.webp",
+        "keyword" : "Plots near Domestic Airport"
+      }
+  ],
+  "HomeAbout": [
+    {
+      "head": "Revolutionizing Real Estate with Spirituality, Innovation, and Sustainability ",
+      "subhead": "ABOUT EKAKSHAR",
+      "text": "Ekakshar Buildtech Pvt. Ltd. delivers innovative, community-focused real estate projects blending spirituality, sustainability, and modern living."
+    }
+  ],
+  "HomeAboutData": [
+    {
+      "head": "Spiritual Modernity",
+      "text": "Ekakshar Buildtech merges spirituality with modern living through innovative projects.",
+      "img": "./icon_wifi.webp"
+    },
+    {
+      "head": "Visionary Expansion",
+      "text": "Ekakshar Buildtech focuses on sustainability with projects like Bliss Valley and more in Ayodhya and Ranikhet.",
+      "img": "./icon _user.webp"
+    }
+  ],
+
+  "ExclusiveProject": [
+    {
+      "img1": "./khatushyam.webp",
+      "name": "SHREE SHYAM TOWNSHIP",
+      "address": "Village Jaloond Dantaram Garh tehsil distt sikar Rajasthan",
+      "link": "/shree-shyam-township",
+      "price": "ON REQUEST*",
+      "request": "$ Request On Demand",
+      "type": "Residential",
+      "txt": "Popular",
+      "keyword" : "Best Property In Sikar"
+    },
+    {
+      "img1": "./blissvalley.webp",
+      "name": "BLISS VALLEY ",
+      "address": "Herbertpur Vikasnagar Tehsil Distt Dehradun",
+      "link": "/bliss-valley",
+      "price": "31.5 lakhs",
+      "request": "$ Request On Demand",
+      "type": "Coming Soon",
+      "txt": "Coming Soon",
+      "keyword" : "Residential Plots In Dehradun"
+    },
+    {
+      "img1": "./aerocity.webp",
+      "name": "SHREE SHYAM AEROCITY",
+      "address": " Dantaram Garh road State Highway-113 Distt Sikar , Rajasthan",
+      "link": "/shree-shyam-aerocity",
+      "price": "12 lakhs",
+      "request": "$ Request On Demand",
+      "type": "New Launch",
+      "txt": "Discounted Price",
+      "keyword" : "Plots In Sikar, Rajasthan"
+    },
+    {
+      "img1": "/greenfarms-outer.webp",
+      "name": "EKAKSHAR GREEN FARMS ",
+      "address": "Village Falaida khadar",
+      "link": "/ekakshar-green-farms",
+      "price": "12 lakhs",
+      "request": "$ Request On Demand",
+      "type": "New Launch",
+      "txt": "Trending",
+      "keyword" : "Premium FarmHouse near Jewar Airport"
+    },
+    {
+      "img1": "/greenwoodsouter.webp",
+      "name": "EKAKSHAR GREEN WOODS",
+      "address": "Village Solra Palwal Haryana",
+      "link": "/ekakshar-green-woods",
+      "price": "12 lakhs",
+      "request": "$ Request On Demand",
+      "type": "New Launch",
+      "txt": "Trending",
+      "keyword" : "Residential Plots In Jewar"
+    }
+  ],
+
+  "Leader": [
+    {
+      "img": "./leadimg1.webp",
+      "head": "Mr. Rohit Kumar Khari",
+      "txt": "Founder & CMD",
+      "social1": "./LinkedIn.webp",
+      "social2": "./Instagram.webp",
+      "social3": "./Facebook.webp",
+      "social4": "./twitter.webp",
+      "logo": "./logo_leader.webp",
+      "LinkedinLink": "https://www.linkedin.com/in/rohit-khari-883b00bb/",
+      "InstaLink": "https://www.instagram.com/kharirohitgurjjar?igsh=YzVrcWM0aHQzNXhp"
+    },
+    {
+      "img": "./Sanjeev-Agarwal.webp",
+      "head": "MR. SANJEEV AGARWAL",
+      "txt": " CEO",
+      "social1": "./LinkedIn.webp",
+      "social2": "./Instagram.webp",
+      "social3": "./Facebook.webp",
+      "social4": "./twitter.webp",
+      "logo": "./logo_leader.webp",
+      "LinkedinLink": "https://www.linkedin.com/in/sanjeev-kumar-agarwal-91856a17",
+      "InstaLink": "https://www.instagram.com/ekakshar_buildtech/"
+    },
+    {
+      "img": "./Deepak-Sharma.webp",
+      "head": "MR. DEEPAK SHARMA",
+      "txt": "MD",
+      "social1": "./LinkedIn.webp",
+      "social2": "./Instagram.webp",
+      "social3": "./Facebook.webp",
+      "social4": "./twitter.webp",
+      "logo": "./logo_leader.webp",
+      "LinkedinLink": "https://www.linkedin.com/company/ekaksharbuildtech/",
+      "InstaLink": "https://www.instagram.com/ekakshar_buildtech/"
+    }
+  ],
+  "HomeBlog": [
+    {
+      "link": "/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech",
+      "img1": "./blogcardimg1.webp",
+      "name": "Top 5 Real Estate Growth Zones...",
+      "text": "Delhi-NCR has usually been a privileged spot for making...",
+      "date": "6",
+      "day": "Dec",
+      "keyword" : "Top 5 Real Estate Growth Zones to Invest in Delhi-NCR with Ekakshar Buildtech"
+    },
+    {
+      "link": "/discover-16-way-ai-is-making-real-estate-smarter",
+      "img1": "./blogcardimg2.webp",
+      "name": "Discover 16 Ways AI is Making Real...",
+      "text": "The main factor behind the notable advancements in the real..",
+      "date": "11",
+      "day": "Dec",
+      "keyword" : "Discover 16 Ways AI is Making Real Estate Smarter"
+    },
+    {
+      "link": "/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development",
+      "img1": "./blogcardimg3.webp",
+      "name": "Jewar Airport’s First Plane Landing..",
+      "text": "Jewar Airport has made history with its first plane landing..",
+      "date": "15",
+      "day": "Dec",
+      "keyword" : "Jewar Airport’s First Plane Landing: A Milestone in Aviation and Infrastructure Development"
+    },
+    {
+      "link": "/navigating-india-real-estate-market-in-2024-trends-and-insights",
+      "img1": "./blogcardimg4.webp",
+      "name": "Navigating India's Real Estate Market...",
+      "text": "India's real property industry is thriving as of 2024..",
+      "date": "16",
+      "day": "Dec",
+      "keyword" : "Navigating India's Real Estate Market in 2024: Trends and Insights"
+    },
+    {
+      "link": "/government-policies-driving-dehradun's-real-estate-growth",
+      "img1": "./blogcardimg5.webp",
+      "name": "Government Policies Driving Dehradun's ...",
+      "text": "India's real property industry is thriving as of 2024..",
+      "date": "20",
+      "day": "Dec",
+      "keyword" : "Government Policies Driving Dehradun's Real Estate Growth"
+    }
+  ],
+  "Testimonial": [
+    {
+      "name": "Ajay Lamba",
+      "text": "Ekakshar Buildtech turned my dream of owning a home into a reality. Their team has been professional, transparent and attentive to my needs right from the start. Their quality of construction is outstanding."
+    },
+    {
+      "name": "Simrun Bhutani",
+      "text": "Ekakshar Buildtech has been one of the best decisions I made. Their projects are very well planned, located in good places, and return is really good. I trust Ekakshar for all my future real estate investments."
+    },
+    {
+      "name": "Vipin Yadav",
+      "text": "Ekakshar Buildtech helped us find the ideal space for our expanding business. From defining our requirements to closing the deal, their knowledge and professionalism made the entire process frictionless."
+    }
+  ]
+}

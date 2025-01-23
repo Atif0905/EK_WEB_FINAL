@@ -1,0 +1,60 @@
+{  
+    "ExclusiveProject": [
+      {
+        "img1": "./blissvalley.webp",
+        "name": "BLISS VALLEY ",
+        "address": "Herbertpur Vikasnagar Tehsil Distt Dehradun",
+        "link": "/bliss-valley",
+        "price": "31.5 lakhs",
+        "request": "BLISS VALLEY",
+        "type": "Coming Soon",
+        "txt": "Coming Soon",
+      "keyword" : "Residential Plots In Dehradun"
+      },
+      {
+        "img1": "/greenfarms-outer.webp",
+        "name": "EKAKSHAR GREEN FARMS ",
+        "address": "Village Falaida khadar",
+        "link": "/ekakshar-green-farms",
+        "price": "12 lakhs",
+        "request": "EKAKSHAR GREEN FARMS",
+        "type": "New Launch",
+        "txt": "Trending",
+      "keyword" : "Premium FarmHouse near Jewar Airport"
+      },
+      {
+        "img1": "/greenwoodsouter.webp",
+        "name": "EKAKSHAR GREEN WOODS",
+        "address": "Village Solra Palwal Haryana",
+        "link": "/ekakshar-green-woods",
+        "price": "12 lakhs",
+        "request": "EKAKSHAR GREEN WOODS",
+        "type": "New Launch",
+        "txt": "Trending",
+      "keyword" : "Residential Plots In Jewar"
+      },
+      {
+        "img1": "./aerocity.webp",
+        "name": "SHREE SHYAM AEROCITY",
+        "address": " Dantaram Garh road State Highway-113 Distt Sikar , Rajasthan",
+        "link": "/shree-shyam-aerocity",
+        "price": "12 lakhs",
+        "request": "SHREE SHYAM AEROCITY",
+        "type": "New Launch",
+        "txt": "Discounted Price",
+      "keyword" : "Plots In Sikar, Rajasthan"
+      },
+      {
+        "img1": "./khatushyam.webp",
+        "name": "SHREE SHYAM TOWNSHIP",
+        "address": "Village Jaloond Dantaram Garh tehsil distt sikar Rajasthan",
+        "link": "/shree-shyam-township",
+        "price": "ON REQUEST*",
+        "request": "SHREE SHYAM TOWNSHIP",
+        "type": "Residential",
+        "txt": "Popular",
+      "keyword" : "Best Property In Sikar"
+      }
+    ]
+  }
+  

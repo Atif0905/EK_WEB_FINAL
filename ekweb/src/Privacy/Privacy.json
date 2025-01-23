@@ -1,0 +1,110 @@
+{
+    "privacyPolicy": {
+      "introduction": {
+        "welcomeMessage": "Welcome to Ekakshar Real Estate Developers! Your privacy is important to us.",
+        "overview": "This Privacy Policy outlines the types of information we collect, how we use it, and your rights. By using our website, you agree to the practices described here."
+      },
+      "informationCollection": {
+        "description": "At Ekakshar Real Estate, we collect different types of information to provide the best services as a real estate developer and broker.",
+        "dataTypes": [
+          {
+            "type": "Personal Information",
+            "details": "We may collect your name, email address, phone number, and other details when you contact us about properties, subscribe to our updates, or create an account on our website."
+          },
+          {
+            "type": "Property and Financial Data",
+            "details": "We gather information on your property preferences, budget, and financial details to match you with the best real estate options."
+          },
+          {
+            "type": "Website Usage Data",
+            "details": "When you visit ekaksharbuildtech.in, we collect your IP address, browser type, and browsing behavior to improve your experience on our site."
+          },
+          {
+            "type": "Communication Records",
+            "details": "We may store and review your communications, such as email inquiries, for quality and support purposes."
+          }
+        ]
+      },
+      "dataUsage": {
+        "purpose": "Our primary purpose in collecting your information is to enhance your real estate experience.",
+        "uses": [
+          {
+            "usage": "Providing and Personalizing Services",
+            "details": "We use your data to respond to inquiries, process applications, and tailor our property recommendations based on your preferences."
+          },
+          {
+            "usage": "Marketing and Communications",
+            "details": "With your consent, we may send you property listings, real estate news, or promotional offers relevant to your interests."
+          },
+          {
+            "usage": "Legal Compliance",
+            "details": "We use your data to comply with applicable real estate regulations and ensure compliance with legal obligations."
+          },
+          {
+            "usage": "Transaction Support",
+            "details": "We process payments and communicate with you about any financial matters related to property transactions."
+          },
+          {
+            "usage": "Website Enhancement",
+            "details": "Data on your site usage helps us optimize ekaksharbuildtech.in and provide a smooth browsing experience."
+          }
+        ]
+      },
+      "dataSharingAndDisclosure": {
+        "commitment": "We are committed to protecting your data and will not sell or trade your information.",
+        "sharedWith": [
+          {
+            "entity": "Trusted Service Providers",
+            "details": "We partner with website hosting, payment processors, and marketing platforms to provide efficient service. These providers have limited access to your data solely to perform tasks on our behalf."
+          },
+          {
+            "entity": "Legal Authorities",
+            "details": "If required, we may disclose information to comply with legal obligations, such as a court order or government inquiry."
+          },
+          {
+            "entity": "Business Successors",
+            "details": "In the event of a business transition, such as a merger or acquisition, your information may be transferred to the successor entity."
+          }
+        ]
+      },
+      "securityMeasures": {
+        "commitment": "We take security seriously at Ekakshar Real Estate. We implement the following measures to protect your data.",
+        "measures": [
+          {
+            "type": "Encryption",
+            "details": "Sensitive data, including financial details, is encrypted to safeguard your information during transmission."
+          },
+          {
+            "type": "Access Controls",
+            "details": "Access to personal data is restricted to authorized personnel only."
+          },
+          {
+            "type": "Regular Security Checks",
+            "details": "We frequently monitor and update our systems to prevent unauthorized access and maintain data security."
+          }
+        ]
+      },
+      "dataRetention": {
+        "policy": "We retain your personal data as long as necessary to provide our services, fulfill legal requirements, and support our business operations.",
+        "dataDeletion": "You may request data deletion where permitted by law."
+      },
+      "cookiesAndTracking": {
+        "description": "Our website uses cookies to enhance your experience. Cookies collect data on your preferences and help us serve you relevant content.",
+        "management": "You can manage cookie settings via your browser, although disabling cookies may impact site functionality.",
+        "cookieTypes": [
+          {
+            "type": "Essential Cookies",
+            "details": "Enable core site functions."
+          },
+          {
+            "type": "Analytics Cookies",
+            "details": "Provide insight into how users interact with our site."
+          },
+          {
+            "type": "Marketing Cookies",
+            "details": "Help deliver personalized advertisements."
+          }
+        ]
+      }
+    }
+  }

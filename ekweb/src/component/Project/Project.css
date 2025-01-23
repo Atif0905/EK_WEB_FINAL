@@ -1,0 +1,234 @@
+.projectherosec {
+  background-image: url("../../../public/projectheroimg.webp");
+}
+.hero_heading_white2 {
+  font-size: 4vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: left;
+  position: absolute;
+  top: 51%;
+  left: 24.3%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.project-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #6c6c6c;
+}
+.project-text-right {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #6c6c6c;
+  padding-right: 20%;
+}
+.project-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.projectdiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.projectleftimg {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 32px 24px 0px #0000004d;
+  border-top-right-radius: 40px;
+}
+.projectrightimg {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 32px 24px 0px #0000004d;
+  border-top-left-radius: 30px;
+}
+
+.righttextdiv {
+  padding: 20% 2rem 0;
+}
+.righttextdiv1 {
+  padding: 20% 12% 0 20% ;
+}
+.projectlastext{
+  color: rgb(163,160,154);
+  padding: 2% 15%;
+}
+
+.projectline {
+  width: 160px;
+  height: 4px;
+  background: linear-gradient(90deg, #2e437e 0%, #ffffff 94.96%);
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.project-price{
+  font-family: "Poppins", sans-serif;
+font-size: 1.1vw;
+font-weight: 700;
+line-height: 17.5px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.projectcard {
+  width: 85%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 12px 14px 0px #00000022;
+}
+.project-card-img {
+  width: 100%;
+  height: 17rem;
+  object-fit: contain cover;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.cardnamediv {
+  padding-top: 3%;
+  border-bottom: 1px solid #d4d4d4;
+}
+.cardlastdiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.cardpadding {
+  padding: 2% 3rem;
+}
+.borderright {
+  border-right: 1px solid #d4d4d4;
+}
+.leader-name1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7vw;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-align: center;
+}
+.projectlastdiv {
+  background: linear-gradient( 225.52deg, #271a00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+  height: auto;
+  padding: 10% 30%;
+}
+.whiteline {
+  width: 169px;
+  height: 4px;
+  background: #F2F2F2B2;
+  margin-bottom: 20px;
+}
+.projectmar{
+  margin-top: 40px;
+}
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+@media (min-width:1439px) {
+  .project-card-img {
+    height: 23rem;
+}
+}
+@media (max-width:992px) {
+  .projectcard {
+    width: 90%;
+  }
+  .project-card-img {
+    height: 10rem;
+}
+.cardnamediv {
+  padding-top: 0%;
+}
+.project-price{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.cardpadding {
+  padding: 2% 2rem;
+}
+}
+@media (max-width: 767px) {
+  .projectdiv {
+    grid-template-columns: 1fr;
+  }
+  .projectleftimg {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+  }
+  .projectrightimg {
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  .righttextdiv {
+    padding: 10% 0rem 0;
+  }
+
+  .leader-name1 {
+    font-size: 5vw;
+  }
+  .projectlastdiv {
+    padding: 15% 5%;
+    margin-top: 40px;
+}
+.hero_heading_white2 {
+  font-size: 5vw;
+  line-height: 1.2;
+  top: 45%;
+  left: 35%;
+}
+.project-text-right {
+  font-size: 4.3vw;
+  padding-right: 0%;
+}
+.project-text {
+  font-size: 4.3vw;
+}
+.project-heading {
+  font-size: 7vw;
+}
+.righttextdiv1 {
+  padding: 0%;
+}
+.cardpadding {
+  padding: 2% 1rem;
+}
+.project-card-img {
+  height: 18rem;
+}
+.projectmar{
+  margin-top: 45px;
+}
+.mobile-only {
+  display: block;
+}
+.desktop-only {
+  display: none;
+}
+.projectcard {
+  width: 90%;
+}
+.project-price{
+  font-size: 2.7vw;
+  padding: 10px;
+}
+.cardnamediv {
+  padding: 10px 0;
+}
+}

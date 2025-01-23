@@ -1,0 +1,73 @@
+.teamheroback{
+    background-image: url("../../../public/Teamheroimg.webp");
+}
+.teampadd{
+    padding: 1% 3.5%;
+}
+.Teams-hero-text{
+    font-size: 4vw;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.team-name1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+  }
+.teamcard {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.Team-card-img {
+    width: 95%;
+    height: 100%;
+    padding: 0 0% 0 4%;
+}
+.teamiconback{
+    font-size: 2vw;
+border-radius: 50%;
+color: black;
+font-size: 20px;
+text-align: center;
+}
+.icongrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:0 10% 10px;
+}
+.teamgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+@media (max-width:992px) {
+    .teamgrid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+    }
+}
+@media (max-width:767px) {
+    .Teams-hero-text {
+        font-size: 7vw;
+        top: 50%;
+        left: 35%;
+    }
+    .Team-card-img {
+        width: 100%;
+    }
+    .team-name1{
+        font-size: 4.2vw;
+    }
+}

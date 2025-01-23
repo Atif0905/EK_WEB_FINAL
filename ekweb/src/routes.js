@@ -1,0 +1,25 @@
+// routes.js
+export const routes = [
+    { path: "/" },
+    { path: "/about-us" },
+    { path: "/project" },
+    { path: "/shree-shyam-township" },
+    { path: "/contact-us" },
+    { path: "/our-team" },
+    { path: "/our-blogs" },
+    { path: "/shree-shyam-aerocity" },
+    { path: "/bliss-valley" },
+    { path: "/faq" },
+    { path: "/our-ceo" },
+    { path: "/our-md" },
+    { path: "/our-cmd-founder" },
+    { path: "/leader/:id" },
+    { path: "/privacystatement" },
+    { path: "/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech" },
+    { path: "/discover-16-way-ai-is-making-real-estate-smarter" },
+    { path: "/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development" },
+    { path: "/navigating-india-real-estate-market-in-2024-trends-and-insights" },
+    { path: "/government-policies-driving-dehradun's-real-estate-growth" },
+    { path: "/sitemap" },
+  ];
+  

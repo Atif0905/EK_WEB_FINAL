@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.App {
+    font-family: "Poppins";
+  }
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+.between{
+  display: flex;
+  justify-content: space-between;
+}
+.container_backdiv{
+  padding-top: 3%;
+  padding-bottom: 3%;
+ padding-left: 6%;
+ padding-right: 6%;
+}
+.project_hero_heading{
+  font-size: 4vw;
+font-family: "Poppins";
+font-weight: 600;
+line-height: 1.2;
+text-align: left;
+position: absolute;
+top: 40%;
+left: 5%;
+color: white;
+}
+
+.relative {
+  position: relative;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.background-video {
+  width: 94%;
+  height: 28rem;
+  margin-left: 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 30px;
+  margin-top: 80px;
+}
+.hero-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.background-video::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #173a4b57 !important;
+  border-radius: 30px;
+}
+
+.background {
+  width: 94%;
+  height: 28rem;
+  margin-left: 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 30px;
+  margin-top: 80px;
+}
+.background::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #173a4b57 !important;
+  border-radius: 30px;
+}
+.backgroundbottomdiv {
+  background: linear-gradient(90deg, #173a4b 0%, #3689b1 100%);
+  position: absolute;
+  bottom: 0;
+  right: 8%;
+  color: white;
+  font-size: 1.8vw;
+  padding: 10px 50px ;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.main-heading-white{
+  font-family: Poppins;
+  font-size: 2.6vw;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: left;
+  color: #FFFFFF;
+  }
+  .home_hero_heading{
+    font-size: 3.9vw;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #000000;
+    }
+.hero_heading_white {
+  font-size: 3.9vw;
+  font-family: "Poppins";
+  font-weight: 550;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  top: 41%;
+  left: 38%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.main-heading, 
+.main-heading-white, 
+.main-heading-center {
+  font-family: "Poppins";
+  font-size: 2.7vw;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.main-heading {
+  text-align: left;
+  line-height: 1.1;
+}
+.main-heading-white {
+  text-align: center;
+  color: white;
+}
+.main-heading-center {
+  text-align: center;
+}
+.main-subheading, 
+.main-subheading-white {
+  font-family: "Poppins";
+  font-size: 1.3vw;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-align: left;
+}
+.main-subheading {
+  color: #173a4b; 
+}
+.main-subheading-white {
+  color: #FFFFFF; 
+}
+.main-text, 
+.data-main-text, 
+.main-text-center, 
+.main-text-cen {
+  font-family: "Poppins";
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+.main-text, 
+.main-text-center {
+  line-height: 1.7;
+  color: rgb(128, 128, 128);
+}
+.data-main-text {
+  line-height: 1.4;
+  color: #808080;
+}
+.main-text-center, 
+.main-text-cen {
+  text-align: center;
+}
+.main-text, 
+.data-main-text {
+  text-align: left; 
+}
+.main-text-cen {
+  line-height: 1.3;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.threegrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  overflow: hidden;
+}
+.mobview{
+  display: none;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.homemodal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(171,198,212 , .6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn .5s ease-in;
+}
+
+.homemodal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+}
+
+.homemodal-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.homemodal-content button {
+  background-color: rgb(23,58,75);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (min-width:1340px) {
+  .background {
+    height: 30rem;
+}
+.background-video{
+  height: 30rem;
+}
+}
+@media (max-width:992px) {
+  .background {
+    height: 17rem;
+  }
+  .background-video{
+    height: 17rem;
+  }
+  .home_hero_heading{
+    font-size: 3.6vw;
+    line-height: 1.2;
+    }
+    .backtop{
+      top: 50px;
+    }
+}
+@media (max-width: 767px) {
+  .mobview{
+    display: block;
+}
+  .background {
+    height: 15rem;
+  }
+  .background-video{
+    height: 15rem;
+    }
+  .main-heading {
+    font-size: 6.5vw;
+    line-height: 1.2;
+  }
+  .main-heading-center {
+    font-size: 6vw;
+    line-height: 1.5;
+  }
+  .main-subheading {
+    font-size: 3.5vw;
+    line-height: 1;
+  }
+  .main-text {
+    font-size: 2.5vw;
+    line-height: 1.3;
+}
+  .data-main-text{
+    font-size: 3vw;
+    line-height: 1.3;
+  }
+  .main-text-center {
+    font-size: 2.5vw;
+    line-height: 1.3;
+  }
+  .main-text-cen {
+    font-size: 2.5vw;
+    line-height: 1.3;
+  }
+  .threegrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .backgroundbottomdiv {
+    font-size: 2.5vw;
+  }
+  .hero_heading_white {
+    font-size: 5vw;
+    top: 35%;
+    left: 5%;
+    transform: translate(0%, 0%);
+  }
+  .main-heading-white{
+    font-size: 5vw;
+  }
+  .home_hero_heading{
+    font-size: 6.2vw;
+    }
+    .container_backdiv{
+      padding-left: 8%;
+      padding-right: 8%;
+     }
+  .background{
+    margin-bottom: 40px;
+  }
+  .main-subheading-white {
+    font-family: "Poppins";
+    font-size: 3.5vw;
+}
+}
+@media (max-width:480px) {
+  .main-text {
+    font-size: 4.5vw;
+}
+.main-text-center {
+  font-size: 4vw;
+  line-height: 1.3;
+}
+.main-text-cen {
+  font-size: 4vw;
+  line-height: 1.3;
+}
+
+}
+@media (max-width:376px) {
+  .hero-video{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+  }
+  .background-video {
+    height: 10.3rem;
+  }
+}
+
+.okoko{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}

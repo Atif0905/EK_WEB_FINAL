@@ -1,0 +1,251 @@
+
+.faqcontainer {
+  padding: 3% 7.5%;
+}
+.faqcontainer1 {
+  padding: 0% 7.5%;
+}
+.faq-subhead {
+  font-family: "Poppins";
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 47px;
+  text-align: left;
+}
+.subheadcolor {
+  color: #006697;
+}
+.faq_ques_grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  grid-gap: 70px;
+}
+.faq_ques_grid1 {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  grid-gap: 70px;
+}
+.faq_quesdiv {
+  background-color: #d9d9d9;
+}
+.ques_div {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px 0;
+  z-index: 1;
+  position: relative;
+}
+.ans_text {
+  font-size: 1vw;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(23, 58, 75, 1);
+}
+.ans_div {
+  width: 100%;
+  background-color: #ffffff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.ans_div.open {
+  max-height: 500px;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: -30px;
+  padding: 35px 10px 5px;
+  border-radius: 0 0px 20px 20px;
+}
+.infield2 {
+  width: 100%;
+  height: 3rem;
+  border-radius: 20px;
+  padding-left: 20px;
+  border: none;
+  background-color: #d4d4d433;
+  margin-bottom: 25px;
+}
+.infield2::placeholder {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.infield1 {
+  width: 100%;
+  height: 7.5rem;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border: none;
+  background-color: #d4d4d433;
+  margin-bottom: 25px;
+}
+.infield1::placeholder {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.faqform_maindiv {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 10px 30px 50px 0px #0000000d;
+  position: relative;
+  z-index: 10;
+}
+.firstfaqimg {
+  width: 100%;
+  height: 22rem;
+  border-radius: 40px;
+}
+.imageupperdiv {
+  width: 90%;
+  position: relative;
+  padding: 30px 30px 10px;
+  color: white;
+  border-radius: 50px;
+  background-color: rgba(23, 58, 75, 1);
+  top: -100px;
+}
+.faqdivtext {
+  font-family: "Poppins";
+  font-size: 1.1vw;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+  color: white;
+}
+.faqdivheading {
+  font-family: "Poppins";
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #ffffff;
+}
+.arrowimg {
+  width: 40px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.arrow_down {
+  color: rgba(23, 58, 75, 1);
+  width: 35px;
+  height: 20px;
+  transition: transform 0.4s ease;
+  position: relative;
+  top: -5px;
+}
+.arrow_down.rotate {
+  transform: rotate(180deg);
+}
+.popular_img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.adv_text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27.2px;
+  text-align: center;
+  color: #000000;
+}
+.missionmaindiv1 {
+  background-color: #173a4b;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.advantage_card:hover {
+  background-color: white;
+  color: #173a4b;
+}
+.advantage_card {
+  color: white;
+  padding: 10% 20%;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 992px) {
+  .faq_ques_grid1 {
+    grid-gap: 20px;
+  }
+  .infield2 {
+    height: 2.5rem;
+  }
+  .infield1 {
+    height: 5.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .faq_ques_grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+  }
+  .faq_ques_grid1 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+  }
+  .faqdivheading {
+    font-size: 3.2vw;
+  }
+  .faqdivtext {
+    font-size: 2.5vw;
+  }
+  .faq-subhead {
+    font-size: 5vw;
+  }
+  .firstfaqimg {
+    height: 15rem;
+  }
+  .imageupperdiv {
+    top: -80px;
+  }
+  .ques_div {
+    width: 100%;
+    height: 60px;
+  }
+  .popular_img {
+    width: 100%;
+    height: 250px;
+  }
+  .adv_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .adv_head {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+  }
+  .adv_content {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .advantage_card:hover {
+    border-left: 3px solid #ecaf41;
+  }
+  .ques_text {
+    font-size: 3vw;
+  }
+  .payques_text {
+    font-size: 3vw;
+  }
+  .ans_text {
+    font-size: 2.7vw;
+  }
+  .missionmaindiv1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+.advantage_card{
+  height: 30rem;
+}
+}

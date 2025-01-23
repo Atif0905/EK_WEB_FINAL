@@ -1,0 +1,59 @@
+{
+    "PopularQuestion": [
+        {
+            "ques": "What is your approach to sustainability? ",
+            "ans": "Sustainability is at the heart of our work. We implement eco-friendly practices, use sustainable materials, and design projects that respect the environment."
+        },
+        {
+            "ques": "Are your properties suitable for investment or personal use? ",
+            "ans": "Our properties are ideal for both purposes. Whether you are looking for a home or a long-term investment, we provide solutions tailored to your needs. "
+        },
+        {
+            "ques": "Why should I trust Ekakshar Buildtech?",
+            "ans": "We are committed to transparency, ethical practices, and delivering high-quality solutions. Our focus is on building long-term relationships and providing value-driven opportunities."
+        }
+    ], 
+    "PaymentQuestion1": [
+        {
+            "ques": "What makes Ekakshar Buildtech different from others?",
+            "ans": "We prioritize sustainability, innovation, and customer satisfaction in every project. Our transparent processes and eco-friendly approach set us apart in the real estate industry."
+        },
+        {
+            "ques": "Are installment options available?",
+            "ans": "Yes, Ekakshar Buildtech offers flexible installment options to make property ownership more accessible. Buyers can choose from various payment plans, often facilitated through partnerships with leading banks, to suit their financial needs. These installment options help ease the purchase process, allowing buyers to invest comfortably over time."
+        },
+        {
+            "ques": "How do I pay for a property?",
+            "ans": "To pay for a property with Ekakshar Buildtech, you can choose from various flexible payment methods, including direct bank transfers, financing options through partnered banks, and installment plans. Our team will guide you through the payment process, ensuring a secure and transparent transaction."
+        },
+        {
+            "ques": "Can I get financing or loans?",
+            "ans": "Yes, Ekakshar Buildtech offers financing options through partnerships with leading banks, allowing customers to easily obtain loans for property purchases. Our team can assist you in navigating the loan process to make property ownership accessible and stress-free."
+        },
+        {
+            "ques": "How do I track my payment status?",
+            "ans": "To track your payment status with Ekakshar Buildtech, you can reach out to our customer support team or log in to your account on our client portal (if available). Our team will provide you with an updated payment schedule and status to ensure complete transparency and peace of mind throughout the transaction process."
+        },
+        {
+            "ques": "What's the refund policy?",
+            "ans": "Ekakshar Buildtech has a transparent refund policy designed to protect our clients' interests. If a refund is requested, it will be processed in accordance with the terms agreed upon in the sales contract. We encourage clients to reach out to our customer service team to discuss the specific conditions and eligibility for refunds based on their purchase agreement."
+        }
+    ],
+    "Advantage": [
+        {
+            "img": "/Constructing.webp",
+            "head": "Quality Construction and Design",
+            "text": "Delivering high-quality, well-designed properties that meet and exceed industry standards, ensuring durability, functionality, and aesthetic appeal."
+        },
+        {
+            "img": "/Online Support.webp",
+            "head": "Customer-Centric Approach",
+            "text": "Focusing on customer satisfaction through transparent communication, tailored solutions, and delivering on promises, from initial consultation to project completion."
+        },
+        {
+            "img": "/Location.webp",
+            "head": "Prime Locations and Amenities",
+            "text": "Developing properties in desirable locations with modern amenities, offering convenience, accessibility, and an enhanced lifestyle for residents."
+        }
+    ]
+}
