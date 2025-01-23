@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './HomeLeader.css';
-import axios from 'axios';
+import emailjs from "emailjs-com";
 const HomeLast = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const handleOpenModal = () => setModalOpen(true);
@@ -11,7 +11,7 @@ const HomeLast = () => {
       name: "",
       email: "",
       phone: "",
-      content: "",
+      messagecontent: "",
     });
     const [errorMessage, setErrorMessage] = useState("");
     const handleChange = (e) => {
@@ -19,23 +19,31 @@ const HomeLast = () => {
       setFormData({ ...formData, [name]: value });
     };
   
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      try {
-        const response = await axios.post("https://ekaksharbuildtech.com/ConnectForm.php", formData);
-        if (response.data.status === "success") { 
-          setShowModal(true); 
-          e.target.reset(); 
-        } else {
-          console.error("Error Response Data:", response.data); 
-          setErrorModal(true); 
-        }
-      } catch (error) {
-        setErrorMessage(error.response?.data?.message || "An unexpected error occurred.");
-        setErrorModal(true);
-        console.error("Error Details:", error);
-      }    
-    };
+         const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await emailjs.send(
+        "service_dc4gxeq", 
+        "template_pu3449b", 
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          messagecontent: formData.messagecontent,
+        },
+        "V40sIGBn2yzrwC4bv" 
+      );
+
+      if (response.status === 200) {
+        setShowModal(true);
+        setFormData({ name: "", email: "", phone: "", messagecontent: "" }); // Reset form fields
+      }
+    } catch (error) {
+      setErrorMessage(error.text || "An unexpected error occurred.");
+      setErrorModal(true);
+      console.error("EmailJS Error:", error);
+    }
+  };
     const closeModal = () => {
       setShowModal(false);
     };
@@ -85,7 +93,7 @@ const HomeLast = () => {
                 <input className="registerinfield" value={formData.email} onChange={handleChange}  id="email" type="email" name="email"  placeholder='Enter Your Email'  required />
               </div>
               <div className="form-group">
-                <textarea className="registerinfield" value={formData.content} onChange={handleChange} name="content" id="content"   placeholder='Enter Your Message'  required></textarea>
+                <textarea className="registerinfield" value={formData.messagecontent} onChange={handleChange} name="messagecontent" id="messagecontent"   placeholder='Enter Your Message'  required></textarea>
               </div>
               <button type="submit" className="regbtn">Submit</button>
             </form>

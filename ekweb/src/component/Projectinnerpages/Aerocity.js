@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Inner.css";
 import data from "./Inner.json";
 import { IoIosCheckmark } from "react-icons/io";
@@ -11,39 +11,46 @@ import "swiper/css/autoplay";
 import { FaBuilding } from "react-icons/fa6";
 import { BsTextarea } from "react-icons/bs";
 import { FaIndianRupeeSign } from "react-icons/fa6";
-import axios from "axios";
+import emailjs from "emailjs-com";
 const Aerocity = () => {
-   const [showModal, setShowModal] = useState(false);
-    const [errorModal, setErrorModal] = useState(false); 
-     const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        phone: "",
-        content: "",
-      });
-      const [errorMessage, setErrorMessage] = useState("");
-      const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-      };
-      const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-          const response = await axios.post("https://ekaksharbuildtech.com/projectform.php", formData);
-          if (response.data.status === "success") { 
-            setShowModal(true); 
-            e.target.reset(); 
-          } else {
-            console.error("Error Response Data:", response.data); 
-            setErrorModal(true); 
-          }
-        } catch (error) {
-          setErrorMessage(error.response?.data?.message || "An unexpected error occurred.");
-          setErrorModal(true);
-          console.error("Error Details:", error);
-        }    
-      };
+  const [showModal, setShowModal] = useState(false);
+  const [errorModal, setErrorModal] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    messagecontent: "",
+  });
+  const [errorMessage, setErrorMessage] = useState("");
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await emailjs.send(
+        "service_dc4gxeq",
+        "template_pu3449b",
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          messagecontent: formData.messagecontent,
+        },
+        "V40sIGBn2yzrwC4bv"
+      );
 
+      if (response.status === 200) {
+        setShowModal(true);
+        setFormData({ name: "", email: "", phone: "", messagecontent: "" }); 
+      }
+    } catch (error) {
+      setErrorMessage(error.text || "An unexpected error occurred.");
+      setErrorModal(true);
+      console.error("EmailJS Error:", error);
+    }
+  };
   const closeModal = () => {
     setShowModal(false);
   };
@@ -194,10 +201,10 @@ const Aerocity = () => {
           <div>
             <div className="project_formdiv">
               <form onSubmit={handleSubmit}>
-                <input  className="formfield" id="name" type="text" value={formData.name} onChange={handleChange} name="name" placeholder=" Name" required  />
-                <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} className="formfield"  placeholder="Phone" />
-                <input type="email" className="formfield"  name="email" id="email" onChange={handleChange} value={formData.email} placeholder="E-Mail" />
-                <textarea type="text" value={formData.content} className="formarea" onChange={handleChange} placeholder="Hello, I am interested in…" id="content" name="content" rows={4} />
+                <input className="formfield" id="name" type="text" value={formData.name} onChange={handleChange} name="name" placeholder=" Name" required />
+                <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} className="formfield" placeholder="Phone" />
+                <input type="email" className="formfield" name="email" id="email" onChange={handleChange} value={formData.email} placeholder="E-Mail" />
+                <textarea type="text" value={formData.messagecontent} className="formarea" onChange={handleChange} placeholder="Hello, I am interested in…" id="messagecontent" name="messagecontent" rows={4} />
                 <button className="project_contbtn">Contact Us </button>
               </form>
             </div>
@@ -248,13 +255,13 @@ const Aerocity = () => {
         </div>
       )}
       {errorModal && (
-  <div className="homemodal">
-    <div className="homemodal-content">
-      <p>{errorMessage}</p>
-      <button onClick={closeErrorModal}>Ok</button>
-    </div>
-  </div>
-)}
+        <div className="homemodal">
+          <div className="homemodal-content">
+            <p>{errorMessage}</p>
+            <button onClick={closeErrorModal}>Ok</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

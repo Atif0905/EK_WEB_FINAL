@@ -11,7 +11,7 @@ import "swiper/css/autoplay";
 import { FaBuilding } from "react-icons/fa6";
 import { BsTextarea } from "react-icons/bs";
 import { FaIndianRupeeSign } from "react-icons/fa6";
-import axios from "axios";
+import emailjs from "emailjs-com";
 const Shreeshyam = () => {
   const [showModal, setShowModal] = useState(false);
   const [errorModal, setErrorModal] = useState(false);
@@ -19,7 +19,7 @@ const Shreeshyam = () => {
     name: "",
     email: "",
     phone: "",
-    budget: "",
+    messagecontent: "",
   });
   const [errorMessage, setErrorMessage] = useState("");
   const handleChange = (e) => {
@@ -29,18 +29,26 @@ const Shreeshyam = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://ekaksharbuildtech.com/HeroConnectForm.php", formData);
-      if (response.data.status === "success") {
+      const response = await emailjs.send(
+        "service_dc4gxeq",
+        "template_pu3449b",
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          messagecontent: formData.messagecontent,
+        },
+        "V40sIGBn2yzrwC4bv"
+      );
+
+      if (response.status === 200) {
         setShowModal(true);
-        e.target.reset();
-      } else {
-        console.error("Error Response Data:", response.data);
-        setErrorModal(true);
+        setFormData({ name: "", email: "", phone: "", messagecontent: "" }); 
       }
     } catch (error) {
-      setErrorMessage(error.response?.data?.message || "An unexpected error occurred.");
+      setErrorMessage(error.text || "An unexpected error occurred.");
       setErrorModal(true);
-      console.error("Error Details:", error);
+      console.error("EmailJS Error:", error);
     }
   };
   const closeModal = () => {
@@ -181,7 +189,7 @@ const Shreeshyam = () => {
                 <input type="text" className="formfield" name="name" id="name" placeholder="Name" onChange={handleChange} value={formData.name} />
                 <input type="number" id="phone" name="phone" className="formfield" placeholder="Phone" onChange={handleChange} value={formData.phone} />
                 <input type="email" className="formfield" name="email" id="email" placeholder="E-Mail" onChange={handleChange} value={formData.email} />
-                <textarea type="text" className="formarea" placeholder="Hello, I am interested in…" id="content" name="content" rows={4} onChange={handleChange} value={formData.content} />
+                <textarea type="text" className="formarea" placeholder="Hello, I am interested in…" id="messagecontent" name="messagecontent" rows={4} onChange={handleChange} value={formData.messagecontent} />
                 <button className="project_contbtn">Contact Us </button>
               </form>
             </div>

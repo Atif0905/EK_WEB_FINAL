@@ -3,12 +3,12 @@ import { FiPhone } from "react-icons/fi";
 import { GoMail } from "react-icons/go";
 import { GrMapLocation } from "react-icons/gr";
 import "./Contact.css";
-import axios from "axios";
+import emailjs from "emailjs-com";
 const Contactform = () => {
   // States to control modal visibility and form reset
   const [showModal, setShowModal] = useState(false);
   const [errorModal, setErrorModal] = useState(false);
-  const [formData, setFormData] = useState({ name: "", email: "", phone: "", budget: "", content: "",});
+  const [formData, setFormData] = useState({ name: "", email: "", phone: "", budget: "", messagecontent: "",});
   const [errorMessage, setErrorMessage] = useState("");
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,19 +17,28 @@ const Contactform = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://ekaksharbuildtech.com/contactConnectForm.php", formData);
-      if (response.data.status === "success") { 
-        setShowModal(true); 
-        e.target.reset(); 
-      } else {
-        console.error("Error Response Data:", response.data); 
-        setErrorModal(true); 
+      const response = await emailjs.send(
+        "service_dc4gxeq",
+        "template_pu3449b",
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          budget: formData.budget,
+          messagecontent: formData.messagecontent,
+        },
+        "V40sIGBn2yzrwC4bv"
+      );
+
+      if (response.status === 200) {
+        setShowModal(true);
+        setFormData({ name: "", email: "", phone: "", messagecontent: "" }); 
       }
     } catch (error) {
-      setErrorMessage(error.response?.data?.message || "An unexpected error occurred.");
+      setErrorMessage(error.text || "An unexpected error occurred.");
       setErrorModal(true);
-      console.error("Error Details:", error);
-    }    
+      console.error("EmailJS Error:", error);
+    }
   };
   const closeModal = () => setShowModal(false);
   const closeErrorModal = () => setErrorModal(false);
@@ -112,7 +121,7 @@ const Contactform = () => {
               <input type="email" name="email" id="email" className="contactinput" placeholder="E-Mail" value={formData.email} onChange={handleChange} required/>
               <input type="number" name="phone" id="phone" className="contactinput noscroll" placeholder="Number"   value={formData.phone} onChange={handleChange} required/>
               <input type="number" name="budget" id="budget" className="contactinput" placeholder="Budget" value={formData.budget} onChange={handleChange} required  />
-              <textarea name="content" id="content" className="contactinput" placeholder="Message" rows="5" value={formData.content} onChange={handleChange} required></textarea>
+              <textarea name="messagecontent" id="messagecontent" className="contactinput" placeholder="Message" rows="5" value={formData.messagecontent} onChange={handleChange} required></textarea>
               <div className="center mt-3">
                 <button type="submit" className="registerbutton">
                   Register
