@@ -55,7 +55,7 @@ color: white;
 }
 .background-video::before {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 100%;
   background-color: #173a4b57 !important;

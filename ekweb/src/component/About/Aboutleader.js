@@ -66,6 +66,11 @@ const leaderData = [
     name: 'Miss Swati Singh',
     designation: 'Admin Manager'
   },
+  {
+    imgSrc: "/nagar-small.png",
+    name : "Mr. Shivam Nagar",
+    designation: "Administrator"
+  }
 ];
 
 const Aboutleader = () => {

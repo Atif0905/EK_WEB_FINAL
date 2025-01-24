@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../Project.css';
 
 const ProjectHero = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.7;
+    }
+  }, []);
+
   const content = {
     videoSrc: "/projectmain.MOV",
     videoAlt: "Hero Video",
   };
 
   return (
-    <div className=' background-video'>
+    <div className='background-video'>
       <video
+        ref={videoRef}
         src={content.videoSrc}
         className='hero-video'
-        alt={content.videoAlt}
         autoPlay
         loop
         muted

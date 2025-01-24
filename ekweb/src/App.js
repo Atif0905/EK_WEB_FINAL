@@ -29,6 +29,8 @@ import Cir from "./cir";
 import "./App.css"
 import Ekakshargreenwoods from "./component/Projectinnerpages/Ekakshargreenwoods";
 import Ekakshargreenfarms from "./component/Projectinnerpages/Ekakshargreenfarms";
+// import { element } from "prop-types";
+import Notfound from "./Notfound";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -54,7 +56,8 @@ const routes = [
   { path: "/navigating-india-real-estate-market-in-2024-trends-and-insights", element: <Blogpage4 /> },
   { path: "/government-policies-driving-dehradun's-real-estate-growth", element: <Blogpage5 /> },
   { path: "/sitemap", element: <Sitemap /> },
-  {path:"/cir", element: <Cir/>}
+  {path:"/cir", element: <Cir/>},
+  {path:"*", element: <Notfound/>}
 ];
 
 const App = () => {
