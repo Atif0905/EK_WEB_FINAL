@@ -21,5 +21,8 @@ export const routes = [
     { path: "/navigating-india-real-estate-market-in-2024-trends-and-insights" },
     { path: "/government-policies-driving-dehradun's-real-estate-growth" },
     { path: "/sitemap" },
+    { path: "/ekakshar-green-woods" },
+    { path: "/ekakshar-green-farms" },
+    { path: "/cir" },
   ];
   

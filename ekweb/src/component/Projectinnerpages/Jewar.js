@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import axios from 'axios';
+import "../../App.css"
 const Jewar = () => {
     const [showModal, setShowModal] = useState(false);
     const [errorModal, setErrorModal] = useState(false);

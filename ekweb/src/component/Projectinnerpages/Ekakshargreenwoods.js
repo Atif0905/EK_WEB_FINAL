@@ -12,6 +12,7 @@ import { FaBuilding } from "react-icons/fa6";
 import { BsTextarea } from "react-icons/bs";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import emailjs from "emailjs-com";
+import "../../App.css"
 const Ekakshargreenwoods = () => {
   const [showModal, setShowModal] = useState(false);
   const [errorModal, setErrorModal] = useState(false);
