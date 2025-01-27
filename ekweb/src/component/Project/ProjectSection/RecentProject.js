@@ -1,4 +1,5 @@
 import React from 'react'
+
 const RecentProject = () => {
   const content = {
     imageSrc: "/projectimg2.webp",

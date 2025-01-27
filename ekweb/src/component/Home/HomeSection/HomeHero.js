@@ -72,7 +72,7 @@ const HomeHero = () => {
   const slides = data.HomeSlide;
 
   return (
-    <div className="homehero_maindiv">
+    <div className="homehero_maindivs">
       <div className="home_herodiv"></div>
       <div className="home_herodiv1 relative">
         <div className="container_backdiv">

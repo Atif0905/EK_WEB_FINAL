@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../Project.css';
+import './Project.css';
 
 const ProjectHero = () => {
   const videoRef = useRef(null);

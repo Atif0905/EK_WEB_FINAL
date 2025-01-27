@@ -1,4 +1,4 @@
-.homehero_maindiv {
+.homehero_maindivs {
   width: 100%;
   height: 100%;
   padding-top: 70px;
@@ -638,7 +638,7 @@
     height: 60px;
     top: 28%;
   }
-  .homehero_maindiv {
+  .homehero_maindivs {
     padding-top: 50px;
     height: auto;
   }

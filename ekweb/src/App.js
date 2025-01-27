@@ -30,51 +30,37 @@ import Ekakshargreenfarms from "./component/Projectinnerpages/Ekakshargreenfarms
 import Notfound from "./Notfound";
 import "./App.css";
 
-const routes = [
-  { path: "/", element: <Home />, exact: true },
-  { path: "/about-us", element: <About /> },
-  { path: "/project", element: <Project /> },
-  { path: "/shree-shyam-township", element: <Shreeshyam />, caseSensitive: true },
-  { path: "/contact-us", element: <Contact /> },
-  { path: "/our-team", element: <Team /> },
-  { path: "/our-blogs", element: <Blogs /> },
-  { path: "/shree-shyam-aerocity", element: <Aerocity />, caseSensitive: true },
-  { path: "/bliss-valley", element: <BlissValley />, caseSensitive: true },
-  { path: "/ekakshar-green-woods", element: <Ekakshargreenwoods />, caseSensitive: true },
-  { path: "/ekakshar-green-farms", element: <Ekakshargreenfarms />, caseSensitive: true },
-  { path: "/faq", element: <Faq /> },
-  { path: "/our-ceo", element: <OurCeo /> },
-  { path: "/our-md", element: <OurMd /> },
-  { path: "/our-cmd-founder", element: <Ourcmd /> },
-  { path: "/leader/:id", element: <Leaders /> },
-  { path: "/privacystatement", element: <PrivacyStatement /> },
-  { path: "/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech", element: <Blogspage1 />, caseSensitive: true },
-  { path: "/discover-16-way-ai-is-making-real-estate-smarter", element: <Blogspage2 />, caseSensitive: true },
-  { path: "/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development", element: <Blogspage3 />, caseSensitive: true },
-  { path: "/navigating-india-real-estate-market-in-2024-trends-and-insights", element: <Blogpage4 />, caseSensitive: true },
-  { path: "/government-policies-driving-dehradun's-real-estate-growth", element: <Blogpage5 />, caseSensitive: true },
-  { path: "/sitemap", element: <Sitemap /> },
-  { path: "/cir", element: <Cir /> },
-  { path: "*", element: <Notfound /> },
-];
-
 const App = () => (
   <div className="App">
     <ScrollTop />
     <Navbar />
     <Routes>
-    {routes.map(({ path, element }, index) => {
-  console.log(`Rendering route: ${path}`);
-  return (
-    <Route
-      key={index}
-      path={path}
-      element={element}
-    />
-  );
-})}
-
-</Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about-us" element={<About />} />
+      <Route path="/project" element={<Project />} />
+      <Route path="/shree-shyam-township" element={<Shreeshyam />} />
+      <Route path="/contact-us" element={<Contact />} />
+      <Route path="/our-team" element={<Team />} />
+      <Route path="/our-blogs" element={<Blogs />} />
+      <Route path="/shree-shyam-aerocity" element={<Aerocity />} />
+      <Route path="/bliss-valley" element={<BlissValley />} />
+      <Route path="/ekakshar-green-woods" element={<Ekakshargreenwoods />} />
+      <Route path="/ekakshar-green-farms" element={<Ekakshargreenfarms />} />
+      <Route path="/faq" element={<Faq />} />
+      <Route path="/our-ceo" element={<OurCeo />} />
+      <Route path="/our-md" element={<OurMd />} />
+      <Route path="/our-cmd-founder" element={<Ourcmd />} />
+      <Route path="/leader/:id" element={<Leaders />} />
+      <Route path="/privacystatement" element={<PrivacyStatement />} />
+      <Route path="/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech" element={<Blogspage1 />} />
+      <Route path="/discover-16-way-ai-is-making-real-estate-smarter" element={<Blogspage2 />} />
+      <Route path="/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development" element={<Blogspage3 />} />
+      <Route path="/navigating-india-real-estate-market-in-2024-trends-and-insights" element={<Blogpage4 />} />
+      <Route path="/government-policies-driving-dehradun's-real-estate-growth" element={<Blogpage5 />} />
+      <Route path="/sitemap" element={<Sitemap />} />
+      <Route path="/cir" element={<Cir />} />
+      <Route path="*" element={<Notfound />} />
+    </Routes>
     <Footer />
   </div>
 );
