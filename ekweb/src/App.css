@@ -345,12 +345,7 @@ color: white;
 
 }
 @media (max-width:376px) {
-  .hero-video{
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 30px;
-  }
+
   .background-video {
     height: 10.3rem;
   }

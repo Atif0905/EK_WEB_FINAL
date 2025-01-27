@@ -110,10 +110,10 @@ const Aerocity = () => {
           content="Best Property in Sikar, Best Property near Airport,  Best Property near Domestic Airport, Buy Plots in Sikar, Buy Plots in near Airport, Best Property in Sikar Domestic Airport, Best Property near Khatu Shyam Mandir and Airport, Plot in Sikar Rajasthan."
         />
       </Helmet>
-      <div className=" background-video">
+      <div className=" innerbackground-video">
         <video
           src={content.videoSrc}
-          className="hero-video"
+          className="innerhero-video"
           alt={content.videoAlt}
           autoPlay
           loop

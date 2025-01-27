@@ -1,26 +1,32 @@
 .aboutherosec {
   background-image: url("../../../public/aboutheroimg.webp");
 }
+
 .homeabout_div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .width50 {
   width: 37%;
 }
+
 .aboutfirstimg {
   width: 23rem;
   height: 24rem;
   padding-top: 5%;
 }
+
 .about-content-div {
   width: 100%;
   padding-left: 15%;
   padding-top: 5%;
 }
+
 .paddright {
   padding-right: 40%;
 }
+
 .nameheading {
   font-family: "Poppins", sans-serif;
   font-size: 1.7vw;
@@ -28,6 +34,7 @@
   line-height: 1;
   text-align: left;
 }
+
 .designationtext {
   font-family: "Poppins", sans-serif;
   font-size: 1.1vw;
@@ -35,6 +42,7 @@
   text-align: left;
   color: #173a4b;
 }
+
 .main-button {
   background-color: #173a4b;
   border: none;
@@ -42,6 +50,7 @@
   border-radius: 30px;
   color: white;
 }
+
 .leftimg {
   width: 87%;
   height: 18rem;
@@ -52,6 +61,7 @@
   border-bottom-right-radius: 30px;
   box-shadow: 4px 10px 30px 0px #00000026;
 }
+
 .rightimg {
   width: 87%;
   height: 18rem;
@@ -63,9 +73,11 @@
   border-bottom-left-radius: 30px;
   box-shadow: 4px 10px 30px 0px #00000026;
 }
+
 .rightimgdiv {
   margin-bottom: 40px;
 }
+
 .gradientcircle1 {
   width: 55px;
   height: 55px;
@@ -73,6 +85,7 @@
   bottom: 45%;
   right: 7%;
 }
+
 .gradientcircle2 {
   width: 70px;
   height: 70px;
@@ -80,6 +93,7 @@
   right: 50%;
   bottom: 10%;
 }
+
 .gradientcircle3 {
   width: 55px;
   height: 55px;
@@ -87,23 +101,24 @@
   left: 6%;
   top: 10%;
 }
+
 .gradientcircle4 {
   width: 100px;
   height: 100px;
   position: absolute;
   right: 0%;
   top: 27%;
-  background: linear-gradient(
-    100deg,
-    rgb(149, 165, 177) 0%,
-    rgb(205, 213, 233) 100%
-  );
+  background: linear-gradient(100deg,
+      rgb(149, 165, 177) 0%,
+      rgb(205, 213, 233) 100%);
   border-radius: 50%;
 }
+
 .starimg {
   width: 32px;
   height: 32px;
 }
+
 .lettercircle {
   width: 10rem;
   height: 10rem;
@@ -111,19 +126,23 @@
   top: 10%;
   left: -20px;
 }
+
 .missionmaindiv {
   background-color: #173a4b;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .missioninnderdiv {
   color: white;
   padding: 50px 30px;
 }
+
 .missioninnderdiv:hover {
   background-color: white;
   color: #173a4b;
 }
+
 .mission-heading {
   font-family: "Poppins";
   font-size: 1.2vw;
@@ -132,15 +151,18 @@
   letter-spacing: 0.15em;
   text-align: center;
 }
+
 .mission-icon {
   width: 25px;
   height: 25px;
 }
+
 .about-leader-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .leader-name {
   font-family: "Poppins", sans-serif;
   font-size: 1.4vw;
@@ -148,12 +170,14 @@
   line-height: 40px;
   text-align: center;
 }
+
 .leader-designation {
   font-family: "Poppins", sans-serif;
   font-size: 1.1vw;
   line-height: 17.5px;
   text-align: center;
 }
+
 .leadingdiv {
   background-image: url("../../../public/leadingimage.webp");
   background-size: 100% 100%;
@@ -161,6 +185,7 @@
   position: relative;
   background-repeat: no-repeat;
 }
+
 .leadingdiv::before {
   content: "";
   position: absolute;
@@ -168,6 +193,7 @@
   height: 100%;
   background-color: #6c6b6b6f !important;
 }
+
 .leadinghead {
   font-family: "Poppins", sans-serif;
   font-size: 2.4vw;
@@ -181,6 +207,7 @@
   transform: translate(-50%, -50%);
   width: 30%;
 }
+
 .aboutwhiteline {
   width: 54%;
   background-color: white;
@@ -188,6 +215,7 @@
   margin-left: 24%;
   margin-top: 8px;
 }
+
 .leadingtext {
   font-family: "Poppins", sans-serif;
   font-size: 1.1vw;
@@ -199,6 +227,7 @@
   top: 61%;
   left: 22.5%;
 }
+
 .abtbutton {
   padding: 11px 25px;
   border-radius: 30px;
@@ -211,6 +240,7 @@
   margin-bottom: 20px;
   border: none;
 }
+
 .abtbutton:hover {
   background-color: white;
   outline: 2px solid #173a4b;
@@ -219,62 +249,112 @@
 .abtpadding {
   padding: 0 2%;
 }
+.aboutbackground-video {
+  width: 94%;
+  height: 28rem;
+  margin-left: 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 30px;
+  margin-top: 80px;
+}
+.abouthero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.aboutbackground-video::before {
+  content: "";
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background-color: #173a4b57 !important;
+  border-radius: 30px;
+}
+@media (min-width: 1340px) {
+  .aboutbackground-video {
+    height: 30rem;
+  }
+}
+
 @media (max-width: 992px) {
   .aboutfirstimg {
     width: 18rem;
     height: 19rem;
   }
+
   .about-content-div {
     width: 95%;
     padding-left: 12%;
   }
+
   .leftimg {
     height: 12rem;
   }
+
+  .aboutbackground-video {
+    height: 17rem;
+  }
+
   .rightimg {
     height: 12rem;
   }
+
   .about-leader-img {
     height: 100%;
   }
+
   .mission-heading {
     font-size: 2.5vw;
   }
+
   .leadingtext {
     line-height: 2;
   }
+
   .about-leader-img {
     width: 70%;
   }
+
   .rightimgdiv {
     margin-bottom: 20px;
   }
+
   .gradientcircle4 {
     top: 30%;
   }
+
   .abtbutton {
     padding: 2%;
   }
+
   .leader-designation {
     font-size: 2.3vw;
   }
+
   .leader-name {
     font-size: 2.8vw;
   }
+
   .missioninnderdiv {
     padding: 20px 15px;
   }
 }
+
 @media (max-width: 767px) {
   .homeabout_div {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .aboutfirstimg {
     width: 70%;
     height: 103%;
     margin-right: 15%;
   }
+
   .about-content-div {
     width: 100%;
     padding: 5%;
@@ -286,71 +366,92 @@
   .designationtext {
     font-size: 4vw;
   }
+  .aboutbackground-video {
+    height: 15rem;
+  }
   .rightimg {
     position: relative;
     height: 16rem;
     left: 100px;
     margin-top: 10px;
   }
+
   .leftimg {
     height: 16rem;
   }
+
   .about-leader-img {
     width: 70%;
   }
+
   .abtbutton {
     padding: 3%;
     font-size: 4vw;
     width: 200px;
   }
+
   .gradientcircle1 {
     bottom: 20%;
   }
+
   .starimg {
     margin-top: 20px;
   }
+
   .gradientcircle3 {
     width: 70px;
     height: 70px;
   }
+
   .lettercircle {
     top: 0%;
     left: 20px;
   }
+
   .missionmaindiv {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 30px;
   }
+
   .mission-heading {
     font-size: 6vw;
   }
+
   .missioninnderdiv {
     padding: 35px 35px;
     height: 31rem;
   }
+
   .leadingtext {
     font-size: 3vw;
     left: 0;
     line-height: 1.3;
   }
+
   .leader-name {
     font-size: 5vw;
   }
+
   .leader-designation {
     font-size: 4vw;
   }
+
   .abtpadding {
     padding: 0 5%;
   }
+
   .leadingdiv {
     height: 25vh;
   }
+
   .gradientcircle4 {
     top: -10%;
   }
+
   .paddright {
     padding-right: 0;
   }
+
   .leadinghead {
     font-family: "Poppins", sans-serif;
     font-size: 5vw;
@@ -359,8 +460,12 @@
     width: 60%;
   }
 }
+
 @media (max-width: 376px) {
   .missioninnderdiv {
     height: 30rem;
-}
+  }
+  .aboutbackground-video {
+    height: 10.3rem;
+  }
 }

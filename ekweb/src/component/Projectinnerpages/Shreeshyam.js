@@ -107,10 +107,10 @@ const Shreeshyam = () => {
           content="Best Property in Sikar, Best Property near Khatu Shyam ,  Buy Plots near Khatu Shyam Temple, Buy Plots in Sikar, Best Property near Khatu Shyam Mandir, Plot in Sikar, Plot in Sikar Rajasthan"
         />
       </Helmet>
-      <div className=" background-video">
+      <div className=" innerbackground-video">
         <video
           src={content.videoSrc}
-          className="hero-video"
+          className="innerhero-video"
           alt={content.videoAlt}
           autoPlay
           loop

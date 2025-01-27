@@ -6,10 +6,10 @@ const Aboutsec1 = () => {
     videoAlt: "Hero Video",
   };
   return (
-    <div className=' background-video'>
+    <div className=' aboutbackground-video'>
     <video
       src={content.videoSrc}
-      className='hero-video'
+      className='abouthero-video'
       alt={content.videoAlt}
       autoPlay
       loop

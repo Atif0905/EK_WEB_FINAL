@@ -1,4 +1,3 @@
-// App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar/Navbar";
@@ -26,55 +25,59 @@ import OurMd from "./component/LeadersPage/OurMd";
 import Leaders from "./component/LeadersPage/Leaders";
 import Sitemap from "./Sitemap";
 import Cir from "./cir";
-import "./App.css"
 import Ekakshargreenwoods from "./component/Projectinnerpages/Ekakshargreenwoods";
 import Ekakshargreenfarms from "./component/Projectinnerpages/Ekakshargreenfarms";
-// import { element } from "prop-types";
 import Notfound from "./Notfound";
+import "./App.css";
 
 const routes = [
-  { path: "/", element: <Home /> },
+  { path: "/", element: <Home />, exact: true },
   { path: "/about-us", element: <About /> },
   { path: "/project", element: <Project /> },
-  { path: "/shree-shyam-township", element: <Shreeshyam /> },
+  { path: "/shree-shyam-township", element: <Shreeshyam />, caseSensitive: true },
   { path: "/contact-us", element: <Contact /> },
   { path: "/our-team", element: <Team /> },
   { path: "/our-blogs", element: <Blogs /> },
-  { path: "/shree-shyam-aerocity", element: <Aerocity /> },
-  { path: "/bliss-valley", element: <BlissValley /> },
-  {path:  "/ekakshar-green-woods", element: <Ekakshargreenwoods/>},
-  { path: "/ekakshar-green-farms", element: <Ekakshargreenfarms/>},
+  { path: "/shree-shyam-aerocity", element: <Aerocity />, caseSensitive: true },
+  { path: "/bliss-valley", element: <BlissValley />, caseSensitive: true },
+  { path: "/ekakshar-green-woods", element: <Ekakshargreenwoods />, caseSensitive: true },
+  { path: "/ekakshar-green-farms", element: <Ekakshargreenfarms />, caseSensitive: true },
   { path: "/faq", element: <Faq /> },
   { path: "/our-ceo", element: <OurCeo /> },
   { path: "/our-md", element: <OurMd /> },
   { path: "/our-cmd-founder", element: <Ourcmd /> },
   { path: "/leader/:id", element: <Leaders /> },
   { path: "/privacystatement", element: <PrivacyStatement /> },
-  { path: "/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech", element: <Blogspage1 /> },
-  { path: "/discover-16-way-ai-is-making-real-estate-smarter", element: <Blogspage2 /> },
-  { path: "/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development", element: <Blogspage3 /> },
-  { path: "/navigating-india-real-estate-market-in-2024-trends-and-insights", element: <Blogpage4 /> },
-  { path: "/government-policies-driving-dehradun's-real-estate-growth", element: <Blogpage5 /> },
+  { path: "/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech", element: <Blogspage1 />, caseSensitive: true },
+  { path: "/discover-16-way-ai-is-making-real-estate-smarter", element: <Blogspage2 />, caseSensitive: true },
+  { path: "/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development", element: <Blogspage3 />, caseSensitive: true },
+  { path: "/navigating-india-real-estate-market-in-2024-trends-and-insights", element: <Blogpage4 />, caseSensitive: true },
+  { path: "/government-policies-driving-dehradun's-real-estate-growth", element: <Blogpage5 />, caseSensitive: true },
   { path: "/sitemap", element: <Sitemap /> },
-  {path:"/cir", element: <Cir/>},
-  {path:"*", element: <Notfound/>}
+  { path: "/cir", element: <Cir /> },
+  { path: "*", element: <Notfound /> },
 ];
 
-const App = () => {
-
+const App = () => (
+  <div className="App">
+    <ScrollTop />
+    <Navbar />
+    <Routes>
+    {routes.map(({ path, element }, index) => {
+  console.log(`Rendering route: ${path}`);
   return (
-    <div className="App">
-      <ScrollTop />
-      <Navbar />
-      <Routes>
-        {routes.map(({ path, element }, index) => (
-          <Route key={index} path={path} element={element} />
-        ))}
-      </Routes>
-      <Footer />
-    </div>
+    <Route
+      key={index}
+      path={path}
+      element={element}
+    />
   );
-};
+})}
+
+</Routes>
+    <Footer />
+  </div>
+);
 
 const AppWrapper = () => (
   <Router>

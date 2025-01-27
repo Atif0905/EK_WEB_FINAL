@@ -16,11 +16,11 @@ const ProjectHero = () => {
   };
 
   return (
-    <div className='background-video'>
+    <div className='projectbackground-video'>
       <video
         ref={videoRef}
         src={content.videoSrc}
-        className='hero-video'
+        className='projecthero-video'
         autoPlay
         loop
         muted

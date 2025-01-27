@@ -6,10 +6,10 @@ const Blogssec1 = () => {
     videoAlt: "Ekakshar Buildtech Blogs",
   };
   return (
-    <div className=' background-video'>
+    <div className=' blogbackground-video'>
     <video
       src={content.videoSrc}
-      className='hero-video'
+      className='bloghero-video'
       alt={content.videoAlt}
       autoPlay
       loop

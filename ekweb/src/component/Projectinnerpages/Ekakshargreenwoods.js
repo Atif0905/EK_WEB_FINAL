@@ -110,10 +110,10 @@ const Ekakshargreenwoods = () => {
         <meta name="keywords" content="" />
       </Helmet>
       <div className="">
-        <div className=" background-video">
+        <div className=" innerbackground-video">
           <video
             src={content.videoSrc}
-            className="hero-video"
+            className="innerhero-video"
             alt={content.videoAlt}
             autoPlay
             loop

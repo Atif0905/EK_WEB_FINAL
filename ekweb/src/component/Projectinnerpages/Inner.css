@@ -196,6 +196,37 @@
   height: 100%;
   object-fit: cover;
 }
+.innerbackground-video {
+  width: 94%;
+  height: 28rem;
+  margin-left: 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 30px;
+  margin-top: 80px;
+}
+
+.innerhero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.innerbackground-video::before {
+  content: "";
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background-color: #173a4b57 !important;
+  border-radius: 30px;
+}
+@media (min-width: 1340px) {
+  .innerbackground-video {
+    height: 30rem;
+  }
+}
 @media (max-width: 992px) {
   .projectdiv_grid {
     grid-template-columns: 55% auto;
@@ -217,6 +248,9 @@
   .project_contbtn {
     height: 50px;
     font-size: 2vw;
+  }
+  .innerbackground-video {
+    height: 17rem;
   }
 }
 @media (max-width: 767px) {
@@ -272,4 +306,12 @@
 .township_img {
   height: 18rem;
 }
+.innerbackground-video {
+  height: 15rem;
+}
+}
+@media (max-width: 376px) {
+  .innerbackground-video {
+    height: 10.3rem;
+  }
 }
