@@ -106,7 +106,7 @@ const Blogspage3 = () => {
                 because of its top-notch potential. If you are wondering, now is
                 a good time to{" "}
                 <b className="blog_bold">
-                  <a href="/">buy plot near Jewar Airport.</a>
+                  <a href="/ekakshar-green-woods">buy plot near Jewar Airport.</a>
                 </b>{" "}
                 Asset costs tend to push higher in the short term. Making it a
                 smart investment for the future.
@@ -150,7 +150,7 @@ const Blogspage3 = () => {
                 growth, create jobs, and enhance actual property values for
                 years yet to come. Don’t miss the chance{" "}
                 <b className="blog_bold">
-                  <a href="/"> buy plots near Jewar Airport </a>
+                  <a href="/ekakshar-green-woods"> buy plots near Jewar Airport </a>
                 </b>
                 and be a part of this interesting journey in the direction of a
                 brighter future.

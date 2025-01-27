@@ -60,7 +60,7 @@ const BlissValley = () => {
     setErrorModal(false);
   };
   const content = {
-    videoSrc: "/Bliss.MOV",
+    videoSrc: "/Bliss.mp4",
     videoAlt: "Bliss Valley Dehradun",
   };
   const blissimages = [
@@ -108,7 +108,7 @@ const BlissValley = () => {
         />
       </Helmet>
       <div className="">
-        <div className=" innnerbackground-video">
+        <div className=" innerbackground-video">
           <video
             src={content.videoSrc}
             className="innerhero-video"

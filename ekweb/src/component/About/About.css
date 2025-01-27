@@ -1,7 +1,3 @@
-.aboutherosec {
-  background-image: url("../../../public/aboutheroimg.webp");
-}
-
 .homeabout_div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

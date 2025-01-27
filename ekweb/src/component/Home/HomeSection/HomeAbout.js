@@ -60,7 +60,7 @@ const HomeAbout = () => {
             ))}
           </div>
           <div className="cicle_text">
-            <img className="cicle_imgtxt" src="/abt_circle_txt.webp" alt="Circle Text" loading="lazy" />
+            <img className="cicle_imgtxt" src="/lettercircle.webp" alt="Circle Text" loading="lazy" />
           </div>
           <div className="blue_circle1"></div>
         </div>
