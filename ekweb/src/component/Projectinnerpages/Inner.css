@@ -306,12 +306,4 @@
 .township_img {
   height: 18rem;
 }
-.innerbackground-video {
-  height: 15rem;
-}
-}
-@media (max-width: 376px) {
-  .innerbackground-video {
-    height: 10.3rem;
-  }
 }

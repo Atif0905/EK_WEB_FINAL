@@ -107,7 +107,7 @@ const Ekakshargreenwoods = () => {
           rel="canonical"
           href="https://ekaksharbuildtech.com/ekakshar-green-woods/"
         />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="Plots near jewar airport, Ekakshar green woods in jewar, plot for sale near noida airport, plot for sale at yamuna expressway, land near jewar airport, Ekakshar Buildtech " />
       </Helmet>
       <div className="">
         <div className=" innerbackground-video">

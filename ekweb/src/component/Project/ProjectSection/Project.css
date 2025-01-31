@@ -222,9 +222,6 @@
   .projectdiv {
     grid-template-columns: 1fr;
   }
-  .projectbackground-video {
-    height: 15rem;
-  }
   .projectleftimg {
     width: 90%;
     height: 90%;
@@ -288,10 +285,5 @@
   }
   .cardnamediv {
     padding: 10px 0;
-  }
-}
-@media (max-width: 376px) {
-  .projectbackground-video {
-    height: 10.3rem;
   }
 }

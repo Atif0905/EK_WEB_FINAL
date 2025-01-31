@@ -104,7 +104,7 @@ const BlissValley = () => {
         />
         <meta
           name="keywords"
-          content="Best Property in Dehradun, Buy Plots in Dehradun,  Residential Plots Dehradun, Best Plots in Dehradun, Best investment plots in Hills, Best Property in Hills, Plots Under 25 Lakhs in Dehradun"
+          content="Best Property in Dehradun, Buy Plots in Dehradun,  Residential Plots Dehradun, Best Plots in Dehradun, Best investment plots in Hills, Best Property in Hills, Plots Under 25 Lakhs in Dehradun, Bliss Valley, Plots for sale in Bliss Vlley , Bliss Valley in dehradun"
         />
       </Helmet>
       <div className="">

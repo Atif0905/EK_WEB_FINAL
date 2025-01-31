@@ -105,7 +105,7 @@ const Ekakshargreenfarms = () => {
           rel="canonical"
           href="https://ekaksharbuildtech.com/ekakshar-green-farms/"
         />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="Farms near jewar airport, Ekakshar green woods in jewar, Farms for sale near noida airport, Farms for sale at yamuna expressway, land near jewar airport, Ekakshar Buildtech" />
       </Helmet>
       <div className="">
         <div className=" innerbackground-video">

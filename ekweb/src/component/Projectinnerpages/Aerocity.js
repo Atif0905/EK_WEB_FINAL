@@ -107,7 +107,7 @@ const Aerocity = () => {
         />
         <meta
           name="keywords"
-          content="Best Property in Sikar, Best Property near Airport,  Best Property near Domestic Airport, Buy Plots in Sikar, Buy Plots in near Airport, Best Property in Sikar Domestic Airport, Best Property near Khatu Shyam Mandir and Airport, Plot in Sikar Rajasthan."
+          content="Best Property in Sikar, Best Property near Airport,  Best Property near Domestic Airport, Buy Plots in Sikar, Buy Plots in near Airport, Best Property near Khatu Shyam Mandir and Airport, Plots for sale in shree shyam aerocity, Shree Shyam Aerocity in sikar ."
         />
       </Helmet>
       <div className=" innerbackground-video">

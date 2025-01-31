@@ -390,9 +390,6 @@
     grid-template-columns: 100%;
     grid-gap: 50px
   }
-  .blogbackground-video {
-    height: 15rem;
-  }
   .blogpage_heading {
     font-size: 4vw;
   }
@@ -494,12 +491,5 @@
   }
   .page_button {
     font-size: 3vw;
-  }
-}
-@media (max-width: 376px) {
-
-
-  .blogbackground-video {
-    height: 10.3rem;
   }
 }

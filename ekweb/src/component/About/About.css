@@ -362,9 +362,6 @@
   .designationtext {
     font-size: 4vw;
   }
-  .aboutbackground-video {
-    height: 15rem;
-  }
   .rightimg {
     position: relative;
     height: 16rem;
@@ -460,8 +457,5 @@
 @media (max-width: 376px) {
   .missioninnderdiv {
     height: 30rem;
-  }
-  .aboutbackground-video {
-    height: 10.3rem;
   }
 }

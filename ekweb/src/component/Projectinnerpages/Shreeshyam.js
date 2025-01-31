@@ -104,7 +104,7 @@ const Shreeshyam = () => {
         />
         <meta
           name="keywords"
-          content="Best Property in Sikar, Best Property near Khatu Shyam ,  Buy Plots near Khatu Shyam Temple, Buy Plots in Sikar, Best Property near Khatu Shyam Mandir, Plot in Sikar, Plot in Sikar Rajasthan"
+          content="Best Property in Sikar, Best Property near Khatu Shyam ,  Buy Plots near Khatu Shyam Temple, Buy Plots in Sikar, Best Property near Khatu Shyam Mandir, Plots for sale in Shree Shayam Township, Shree Shayam Township in sikar , shree shyam township, Ekakshar Buildtech"
         />
       </Helmet>
       <div className=" innerbackground-video">

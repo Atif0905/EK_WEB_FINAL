@@ -47,7 +47,51 @@ const Home = () => {
     }),
     []
   );
-
+  const structuredData1 = useMemo(
+    () => (  {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "About Us",
+          "item": "https://ekaksharbuildtech.com/about-us"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://ekaksharbuildtech.com/Contact"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Blogs",
+          "item": "https://ekaksharbuildtech.com/our-blogs"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Shree Shyam Aerocity",
+          "item": "https://ekaksharbuildtech.com/shree-shyam-aerocity"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Shree Shyam Township",
+          "item": "https://ekaksharbuildtech.com/shree-shyam-township"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Bliss Valley",
+          "item": "https://ekaksharbuildtech.com/bliss-valley"
+        }
+      ]
+    }),
+    []
+  );
   return (
     <div>
       <Helmet>
@@ -59,7 +103,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="real estate services, buying property, selling property, renting property, Noida real estate, real estate consultancy, Ekakshar Buildtech, property deals, real estate experts, property investment"
+          content="Property in India, Real Estate India, Best Real Estate company in Noida , Properties In India, Property For Sale, Real Estate services in Noida , Buy Property In India, Commercial Property in India, Property for Best Real estate agency , Ekakshar Buildtech"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://ekaksharbuildtech.com/" />
@@ -83,6 +127,9 @@ const Home = () => {
         {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData1)}
         </script>
       </Helmet>
 
