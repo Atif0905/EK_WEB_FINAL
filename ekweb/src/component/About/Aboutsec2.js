@@ -4,8 +4,7 @@ const Aboutsec2 = () => {
   return (
     <div className='container'>
     <div className='homeabout_div '>
-      <div className='end'><img src='/circlerohitsirimg.webp' className='aboutfirstimg ' alt='Mr. Rohit Kumar Khari'/>
-      </div>
+      <div className='centerend'><img src='/rohitsirimg.jpeg' className='aboutfirstimg ' alt='Mr. Rohit Kumar Khari'/></div>
       <div className='about-content-div'>
         <h1 className='main-subheading mt-3'>INTRODUCE YOURSELF TO</h1>
         <h2 className='main-heading mt-3'>Our CMD & Founder</h2>

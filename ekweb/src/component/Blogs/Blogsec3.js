@@ -87,17 +87,17 @@ const Blogsec3 = () => {
       <h4 className="recent_post_heading">All blog posts</h4>
       <div className="blog_grid_section">
         {currentBlogs.map((blog, index) => (
-          <div key={index} className="blogcard_div">
+          <a href={blog.link}><div key={index} className="blogcard_div">
             <img src={blog.imgSrc} alt={blog.title} className="blogcardimg" />
             <div>
               <p className="purple_txt mt-4">{`${blog.author} • ${blog.date}`}</p>
               <h4 className="blogcard_head">{blog.title}</h4>
               <p className="main-text">{blog.description}</p>
               <button className="research_purple">
-                <a href={blog.link}>Research</a>
+                Research
               </button>
             </div>
-          </div>
+          </div></a>
         ))}
       </div>
       <hr />

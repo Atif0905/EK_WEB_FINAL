@@ -113,7 +113,7 @@ const Blogpage4 = () => {
               <p className="main-text mt-2">
                 {" "}
                 Located in the calm city of Khatu, Rajasthan, Shree Shyam
-                Township offers top price to
+                Township offers top price to {" "}
                 <b className="blog_bold">
                   <a href="/shree-shyam-township">
                     buy plots near the Khatu Shyam Mandir.
@@ -131,7 +131,7 @@ const Blogpage4 = () => {
                 {" "}
                 Situated in Sikar, Rajasthan, Shree Shyam Aerocity is
                 strategically positioned near the upcoming domestic airport and
-                Khatu Shyam Mandir. For those seeking to{" "}
+                Khatu Shyam Mandir. For those seeking to{" "} 
                 <b className="blog_bold">
                   <a href="/shree-shyam-aerocity">
                     {" "}
@@ -142,7 +142,7 @@ const Blogpage4 = () => {
                 prospects.
               </p>
               <h2 className="blogpage_subheading mt-2">
-                Ekakshar Green Farms and Ekakshar Woods (Jewar, Uttar Pradesh)
+                Ekakshar Green Farms and Ekakshar Green Woods (Jewar, Uttar Pradesh)
               </h2>
               <p className="main-text mt-2">
                 {" "}
@@ -156,7 +156,7 @@ const Blogpage4 = () => {
                 prospects.
               </p>
               <h2 className="blogpage_subheading mt-2">
-                Bliss Valley (Dehradun, Uttarakhand)
+                Bliss Valley (Dehradun, Uttarakhand) (Coming Soon)
               </h2>
               <p className="main-text mt-2">
                 Close to Dehradun and the spiritually significant Paonta Sahib

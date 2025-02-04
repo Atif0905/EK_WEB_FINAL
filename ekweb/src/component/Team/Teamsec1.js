@@ -10,7 +10,7 @@ import { GrFacebookOption } from "react-icons/gr";
 import { RxLinkedinLogo } from "react-icons/rx";
 const leaderData = [
   {
-    imgSrc: "./circleimgrohitsir.webp",
+    imgSrc: "./rohitsirimg.jpeg",
     name: "Mr. Rohit Kumar Khari",
     designation: "Founder & CMD",
     LinkedinLink: "https://www.linkedin.com/in/rohit-khari-883b00bb/",
@@ -42,10 +42,10 @@ const Teamsec1 = () => {
   };
   return (
     <div>
-    <div className=' background-video'>
+    <div className=' teambackground-video'>
     <video
       src={content.videoSrc}
-      className='hero-video'
+      className='teamhero-video'
       alt={content.videoAlt}
       autoPlay
       loop
@@ -80,11 +80,11 @@ const Teamsec1 = () => {
                 <div className="container">
                   <div className="center mt-4">
                     <div className="teamcard">
-                      <img
+                      <div className="center"><img
                         src={leader.imgSrc}
                         className="Team-card-img"
                         alt={leader.name}
-                      />
+                      /></div>
                       <div className="">
                         <h3 className="team-name1 mt-3">{leader.name}</h3>
                       </div>

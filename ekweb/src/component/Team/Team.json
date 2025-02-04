@@ -2,7 +2,7 @@
   "Leader": [
     {
       "id": "SUNNY-SINGH",
-      "img": "/circlesunny.webp",
+      "img": "/sunny-sir.webp",
       "innerimg": "/sunny-sir.webp",
       "head": "Mr. SUNNY SINGH",
       "txt": "Director",
@@ -18,7 +18,7 @@
     },
     {
       "id": "SACHIN-KUMAR",
-      "img": "/circleSachin-Sir.webp",
+      "img": "/SACHIN-KUMAR-1.webp",
       "innerimg": "/SACHIN-KUMAR-1.webp",
       "head": "Mr. SACHIN KUMAR",
       "txt": "Director",
@@ -33,7 +33,7 @@
     },
     {
       "id": "VINAY-SINGH",
-      "img": "/vinay-circle.webp",
+      "img": "/vinay.webp",
       "head": "Mr. VINAY SINGH",
       "innerimg": "/vinay.webp",
       "txt": "Director",
@@ -48,7 +48,7 @@
     },
     {
       "id": "SAHIL-CHAHAR",
-      "img": "/circlesahil.webp",
+      "img": "/Sahil.webp",
       "innerimg": "/Sahil.webp",
       "head": "Mr. SAHIL CHAHAR",
       "txt": "IT PROFESSIONALS",
@@ -64,7 +64,7 @@
     },
     {
       "id": "ATIF-NAQUEE",
-      "img": "/circleatif.webp",
+      "img": "/Atif.webp",
       "innerimg": "/Atif.webp",
       "head": "Mr. ATIF NAQUEE",
       "txt": "IT PROFESSIONALS",
@@ -80,7 +80,7 @@
     },
     {
       "id": "Vastu-shastra-specialist",
-      "img": "/circleguruji.webp",
+      "img": "/Guruji.webp",
       "innerimg": "/Guruji.webp",
       "head": "Shri Nivas Shastri Ji",
       "txt": " Vastu shastra  specialist",
@@ -93,7 +93,7 @@
     },
     {
       "id": "Accounts-Manager",
-      "img": "/circlemansi.webp",
+      "img": "/mansi-mam.webp",
       "innerimg": "/mansi-mam.webp",
       "head": "MISS MANSI CHAUHAN",
       "txt": "Accounts Manager",
@@ -108,7 +108,7 @@
     },
     {
       "id": "Hr-Manager",
-      "img": "/circletannu.webp",
+      "img": "/Tannu-mam.webp",
       "innerimg": "/Tannu-mam.webp",
       "head": "MISS TANNU GUPTA",
       "txt": "Hr Manager",
@@ -124,7 +124,7 @@
      },
     {
       "id": "Admin-Manager",
-      "img": "/circleswati.webp",
+      "img": "/swati.webp",
       "innerimg": "/swati.webp",
       "head": "MISS SWATI SINGH",
       "txt": "Admin Manager",
@@ -138,7 +138,7 @@
     },
     {
       "id": "Administrator",
-      "img": "/nagar-small.png",
+      "img": "/shivam.jpeg",
       "innerimg": "/shivam.jpeg",
       "head": "Shivam Nagar",
       "txt": "Administrator",

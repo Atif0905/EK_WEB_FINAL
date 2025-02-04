@@ -7,7 +7,7 @@ import { Autoplay } from 'swiper/modules';
 
 const leaderData = [
   {
-    imgSrc: '/circleimgrohitsir.webp',
+    imgSrc: '/rohitsirimg.jpeg',
     name: 'Mr. Rohit Kumar Khari',
     designation: 'Founder & CMD'
   },

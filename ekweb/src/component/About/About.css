@@ -8,9 +8,11 @@
 }
 
 .aboutfirstimg {
-  width: 23rem;
+  width: 24rem;
   height: 24rem;
-  padding-top: 5%;
+  border-radius: 50%;
+  margin-top: 5%;
+  object-fit: cover;
 }
 
 .about-content-div {
@@ -79,7 +81,7 @@
   height: 55px;
   position: absolute;
   bottom: 45%;
-  right: 7%;
+  right: 5%;
 }
 
 .gradientcircle2 {
@@ -95,7 +97,7 @@
   height: 55px;
   position: absolute;
   left: 6%;
-  top: 10%;
+  top: 8%;
 }
 
 .gradientcircle4 {
@@ -103,7 +105,7 @@
   height: 100px;
   position: absolute;
   right: 0%;
-  top: 27%;
+  top: 15%;
   background: linear-gradient(100deg,
       rgb(149, 165, 177) 0%,
       rgb(205, 213, 233) 100%);
@@ -147,18 +149,16 @@
   letter-spacing: 0.15em;
   text-align: center;
 }
-
 .mission-icon {
   width: 25px;
   height: 25px;
 }
-
 .about-leader-img {
-  width: 100%;
-  height: 100%;
+  width: 14rem;
+  height: 14rem;
   object-fit: cover;
+  border-radius: 50%;
 }
-
 .leader-name {
   font-family: "Poppins", sans-serif;
   font-size: 1.4vw;
@@ -166,14 +166,12 @@
   line-height: 40px;
   text-align: center;
 }
-
 .leader-designation {
   font-family: "Poppins", sans-serif;
   font-size: 1.1vw;
   line-height: 17.5px;
   text-align: center;
 }
-
 .leadingdiv {
   background-image: url("../../../public/leadingimage.webp");
   background-size: 100% 100%;
@@ -181,7 +179,6 @@
   position: relative;
   background-repeat: no-repeat;
 }
-
 .leadingdiv::before {
   content: "";
   position: absolute;
@@ -189,7 +186,6 @@
   height: 100%;
   background-color: #6c6b6b6f !important;
 }
-
 .leadinghead {
   font-family: "Poppins", sans-serif;
   font-size: 2.4vw;
@@ -203,7 +199,6 @@
   transform: translate(-50%, -50%);
   width: 30%;
 }
-
 .aboutwhiteline {
   width: 54%;
   background-color: white;
@@ -211,9 +206,8 @@
   margin-left: 24%;
   margin-top: 8px;
 }
-
 .leadingtext {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   font-size: 1.1vw;
   font-weight: 300;
   line-height: 1;
@@ -223,7 +217,6 @@
   top: 61%;
   left: 22.5%;
 }
-
 .abtbutton {
   padding: 11px 25px;
   border-radius: 30px;
@@ -236,7 +229,6 @@
   margin-bottom: 20px;
   border: none;
 }
-
 .abtbutton:hover {
   background-color: white;
   outline: 2px solid #173a4b;
@@ -263,94 +255,90 @@
 }
 .aboutbackground-video::before {
   content: "";
-  /* position: absolute; */
   width: 100%;
   height: 100%;
   background-color: #173a4b57 !important;
   border-radius: 30px;
 }
+.abtthreegrid {
+  display: grid;
+  grid-template-columns: .8fr 1.4fr .8fr;
+  width: 100%;
+  overflow: hidden;
+}
+.centerend{
+  display: flex;
+  justify-content: end;
+}
 @media (min-width: 1340px) {
   .aboutbackground-video {
     height: 30rem;
   }
+  .gradientcircle4 {
+    top: 20%;
+  }
+  .about-leader-img {
+    width: 15rem;
+    height: 15rem;
 }
-
+}
 @media (max-width: 992px) {
   .aboutfirstimg {
-    width: 18rem;
+    width: 19rem;
     height: 19rem;
   }
-
   .about-content-div {
     width: 95%;
     padding-left: 12%;
   }
-
   .leftimg {
     height: 12rem;
   }
-
   .aboutbackground-video {
     height: 17rem;
   }
-
   .rightimg {
     height: 12rem;
   }
-
-  .about-leader-img {
-    height: 100%;
-  }
-
   .mission-heading {
     font-size: 2.5vw;
   }
-
   .leadingtext {
     line-height: 2;
   }
-
-  .about-leader-img {
-    width: 70%;
+    .about-leader-img {
+      width: 13rem;
+      height: 13rem;
   }
-
   .rightimgdiv {
     margin-bottom: 20px;
   }
-
   .gradientcircle4 {
     top: 30%;
   }
-
-  .abtbutton {
-    padding: 2%;
-  }
-
   .leader-designation {
     font-size: 2.3vw;
   }
-
   .leader-name {
     font-size: 2.8vw;
   }
-
   .missioninnderdiv {
     padding: 20px 15px;
   }
 }
-
 @media (max-width: 767px) {
   .homeabout_div {
     display: grid;
     grid-template-columns: 1fr;
   }
-
-  .aboutfirstimg {
-    width: 70%;
-    height: 103%;
-    margin-right: 15%;
+  .aboutbackground-video {
+    height: 14rem;
   }
-
+  .aboutfirstimg {
+    width: 18rem;
+    height: 18rem;
+    margin-top: 50px;
+  }
   .about-content-div {
     width: 100%;
     padding: 5%;
@@ -368,83 +356,72 @@
     left: 100px;
     margin-top: 10px;
   }
-
+  .abtthreegrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .leftimg {
     height: 16rem;
   }
-
   .about-leader-img {
-    width: 70%;
+    height: 19rem;
+    width: 19rem;
   }
-
+  .centerend{
+    justify-content: center;
+  }
   .abtbutton {
     padding: 3%;
     font-size: 4vw;
     width: 200px;
   }
-
   .gradientcircle1 {
     bottom: 20%;
   }
-
   .starimg {
     margin-top: 20px;
   }
-
   .gradientcircle3 {
     width: 70px;
     height: 70px;
   }
-
   .lettercircle {
     top: 0%;
     left: 20px;
   }
-
   .missionmaindiv {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 30px;
   }
-
   .mission-heading {
     font-size: 6vw;
   }
-
   .missioninnderdiv {
     padding: 35px 35px;
     height: 31rem;
   }
-
   .leadingtext {
     font-size: 3vw;
     left: 0;
     line-height: 1.3;
   }
-
   .leader-name {
     font-size: 5vw;
   }
-
   .leader-designation {
     font-size: 4vw;
   }
-
   .abtpadding {
     padding: 0 5%;
   }
-
   .leadingdiv {
     height: 25vh;
   }
-
   .gradientcircle4 {
     top: -10%;
   }
-
   .paddright {
     padding-right: 0;
   }
-
   .leadinghead {
     font-family: "Poppins", sans-serif;
     font-size: 5vw;
@@ -453,9 +430,14 @@
     width: 60%;
   }
 }
-
 @media (max-width: 376px) {
   .missioninnderdiv {
     height: 30rem;
   }
+}
+@media (max-width:350px) {
+  .about-leader-img {
+    height: 18rem;
+    width: 18rem;
+}
 }

@@ -38,11 +38,11 @@ const Teamsec2 = () => {
                     <div className="teamcard mt-3">
                     <a href={`/leader/${NewData.id}`} className="team-card-link">
                       <div className='center'>
-                        <img
+                        <div className='center'><img
                           src={NewData.img}
-                          className="Team-card-img"
+                          className="Team-card-img1"
                           alt={NewData.head}
-                        />
+                        /></div>
                       </div>
                       <h3 className="team-name1 mt-3">{NewData.head}</h3>
                       <div className="leader-designation">{NewData.txt}</div>
@@ -73,11 +73,11 @@ const Teamsec2 = () => {
             <a href={`/leader/${NewData.id}`} className="team-card-link">
               <div className="center">
                 <div className="teamcard mt-3">
-                  <img
+                  <div className='center'><img
                     src={NewData.img}
-                    className="Team-card-img"
+                    className="Team-card-img1"
                     alt={NewData.head}
-                  />
+                  /></div>
                   <h3 className="team-name1 mt-3">{NewData.head}</h3>
                   <div className="leader-designation">{NewData.txt}</div>
                   <div className="leader-bio mt-2">{truncateText(NewData.bio, 15)}</div>

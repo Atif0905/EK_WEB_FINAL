@@ -45,7 +45,7 @@ const Aboutsec4 = () => {
   return (
     <div>
       <div className='lapview'>
-      <div className="missionmaindiv mt-5 ">
+      <div className="missionmaindiv ">
         {missionData.map((item, index) => (
           <MissionItem
             key={index}

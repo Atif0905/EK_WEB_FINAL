@@ -384,53 +384,46 @@
     height: auto;
   }
 }
-
 @media (max-width: 767px) {
   .blogpage_grid {
     grid-template-columns: 100%;
     grid-gap: 50px
   }
   .blogpage_heading {
-    font-size: 4vw;
+    font-size: 4vw;  
   }
-
+  .blogbackground-video{
+    height: 14rem;
+  }
   .ekakshar_text {
     margin-top: 20px;
     font-size: 2.5vw;
   }
-
   .blogpage_date {
     font-size: 2.3vw;
   }
-
   .blogpage_imgdiv1 {
     width: 100%;
     height: 200px;
   }
-
   .blogpage_heading2 {
     font-size: 3vw;
   }
-
   .recent_blogcard {
     margin-top: 8%;
   }
-
   .blog_head11 {
     font-size: 3.2vw;
   }
-
   .recentblog_heading {
     margin-top: 8%;
     font-size: 5vw;
   }
-
   .recent_blog_grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px
   }
-
   .blog_back {
     font-size: 3vw;
     font-weight: 500;
@@ -439,34 +432,27 @@
     color: #181D24;
     text-decoration: underline;
   }
-
   .blogpage_subheading {
     font-size: 4.6vw;
   }
-
   .sticky_div {
     display: none;
   }
-
   .blog_recentdiv1 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
   }
-
   .recent_section {
     display: none;
   }
-
   .recent_section1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-
   .blog_grid_section {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
   }
-
   .recent_post_heading {
     font-size: 4vw;
   }

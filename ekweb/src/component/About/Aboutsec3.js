@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 
 const Aboutsec3 = () => (
-  <div className="threegrid mt-5">
+  <div className="abtthreegrid mt-5">
     <div className="relative">
       <img src="/aboutleftimg.webp" className="leftimg" alt="Real Estate Agency"/>
       <img src="/gradientcircle1.webp" className="gradientcircle1" alt="about-us" />

@@ -17,7 +17,7 @@ const Blogssec2 = () => {
       </div>
       <h4 className="recent_post_heading">Recent blog posts</h4>
       <div className="blog_recentdiv1">
-        <div>
+      <a href="/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech"><div>
           <div className="recent_imgdiv">
             <img
               className="recent_imgs"
@@ -40,13 +40,14 @@ const Blogssec2 = () => {
               buyers and investors.
             </p>
             <button className="research_purple">
-              <a href="/top-5-real-estate-growth-zones-to-invest-in-delhi-ncr-with-ekakshar-buildtech">
+             
                 Research
-              </a>
+             
             </button>
           </div>
-        </div>
+        </div> </a>
         <div className="recent_section">
+        <a href="/discover-16-way-ai-is-making-real-estate-smarter">
           <div>
             <img
               className="recent_imgdiv1"
@@ -54,7 +55,8 @@ const Blogssec2 = () => {
               alt="Best Real Estate Consultancy"
               loading="lazy"
             />
-          </div>
+          </div></a>
+          <a href="/discover-16-way-ai-is-making-real-estate-smarter">
           <div>
             <p className="purple_txt">Ekakshar • 11 Dec 2024</p>
             <h4 className="blog_head11">Discover 16 way is AI making...</h4>
@@ -62,11 +64,12 @@ const Blogssec2 = () => {
               The main factor behind the notable advancements in the real...
             </p>
             <button className="research_red">
-              <a href="/discover-16-way-ai-is-making-real-estate-smarter">
+              
                 Research
-              </a>
+              
             </button>
-          </div>
+          </div></a>
+          <a href="/navigating-india-real-estate-market-in-2024-trends-and-insights">
           <div>
             <img
               className="recent_imgdiv1"
@@ -74,7 +77,8 @@ const Blogssec2 = () => {
               alt="Best Real Estate Agency"
               loading="lazy"
             />
-          </div>
+          </div></a>
+          <a href="/navigating-india-real-estate-market-in-2024-trends-and-insights">
           <div>
             <p className="purple_txt">Ekakshar • 16 Dec 2024</p>
             <h4 className="blog_head11">Navigating India's Real Estate...</h4>
@@ -82,13 +86,14 @@ const Blogssec2 = () => {
               India's real property industry is thriving as of 2024...
             </p>
             <button className="research_red">
-              <a href="/navigating-india-real-estate-market-in-2024-trends-and-insights">
+             
                 Research
-              </a>
+              
             </button>
-          </div>
+          </div></a>
         </div>
       </div>
+      <a href="/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development">
       <div className="recent_section1 mt-4">
         <div className="recent_imgdiv2">
           <img
@@ -113,12 +118,11 @@ const Blogssec2 = () => {
             for human beings, organizations, and traders.
           </p>
           <button className="research_red">
-            <a href="/jewar-airport-first-plane-landing-a-milestone-in-aviation-and-infrastructure-development">
               Research
-            </a>
+            
           </button>
         </div>
-      </div>
+      </div></a>
     </div>
   );
 };

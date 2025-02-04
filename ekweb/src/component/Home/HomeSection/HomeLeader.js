@@ -9,7 +9,7 @@ const HomeLeader = () => {
       <div className="leader_grid">
         <div className="leader_img">
           <div className="leader_blue_circle2"></div>
-          <img className="leaderimg" src="/rohitsir.webp" alt="Mr. Rohit Kumar Khari" loading="lazy"/>
+          <img className="leaderimg" src="/rohitsirimg.jpeg" alt="Mr. Rohit Kumar Khari" loading="lazy"/>
           <div className="leader_blue_circle1"></div>
         </div>
         <div className="d-flex align-items-center justify-content-center">
