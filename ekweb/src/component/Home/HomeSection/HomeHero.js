@@ -76,10 +76,10 @@ const HomeHero = () => {
       <div className="home_herodiv"></div>
       <div className="home_herodiv1 relative">
         <div className="container_backdiv">
-          <p className="main-subheading">{homeHeroData.subhead}</p>
+          <h1 className="main-subheading">{homeHeroData.subhead}</h1>
           <div className="homehero_grid">
             <div>
-              <h1 className="home_hero_heading">{homeHeroData.head}</h1>
+              <h2 className="home_hero_heading">{homeHeroData.head}</h2>
               <div className="home_hero_txtdiv">
                 <p className="main-text">{homeHeroData.text}</p>
               </div>

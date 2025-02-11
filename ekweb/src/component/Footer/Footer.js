@@ -102,7 +102,7 @@ const Footer = () => {
             <div className='p-2 lapview listmargin '>
               <h4 className='footerhead'>Quick Links</h4>
               <li className='footerlist mt-4'>
-                <a href='/'>Buy Propety With Ekakshar</a>
+                <a href='/'>Buy Property With Ekakshar</a>
               </li>
               <li className='footerlist'>
                 <a href='/contact-us'> Plots In Sikar Rajasthan</a>

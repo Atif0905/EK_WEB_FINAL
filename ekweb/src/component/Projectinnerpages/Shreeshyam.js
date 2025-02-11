@@ -77,35 +77,24 @@ const Shreeshyam = () => {
   return (
     <div>
       <Helmet>
-        <title>Shree Shyam Township | Plots Near Khatu Shyam Mandir</title>
-        <meta
-          name="description"
-          content="Ekakshar Buildtech provides expert real estate services, offering residential plots near Khatu Shyam Mandir, domestic airport, and Sikar city in Rajasthan."
-        />
-        <meta
-          property="og:title"
-          content="Shree Shyam Township | Premier Real Estate by Ekakshar Buildtech"
-        />
-        <meta
-          property="og:description"
-          content="Discover Shree Shyam Township, an exceptional residential project by Ekakshar Buildtech. Experience modern living with premium amenities, spacious designs, and an ideal location."
-        />
+        <title>Buy Shree Shyam Township Property - Ekakshar Buildtech</title>
+        <meta name="title" content="Buy Shree Shyam Township Property - Ekakshar Buildtech"/>
+        <meta name="description" content="Buy Shree Shyam Township property with Ekakshar Buildtech – Premium residential and investment options in a well-planned, thriving community."/>
+        <meta name="keywords" content="Buy Shree Shyam Township Property, Luxury Shree Shyam Township Property, Real Estate Consultancy in Noida, Real Estate Consulting in Noida, Property in Khatu Shyam, Luxury Property in Khatu Shyam, Prime Property in Khatu Shyam, Residential Property in Khatu Shyam, Commercial Property in Khatu Shyam"/>
+        <link rel="canonical" href="https://ekaksharbuildtech.com/shree-shyam-township"/>
+        <meta name="DC.Title" content="Buy Shree Shyam Township Property - Ekakshar Buildtech"/>
+        <meta name="DC.Subject" content="Buy Shree Shyam Township property with Ekakshar Buildtech – Premium residential and investment options in a well-planned, thriving community."/>
+        <meta property="og:title" content="Buy Shree Shyam Township Property - Ekakshar Buildtech"/>
+        <meta property="og:description" content="Buy Shree Shyam Township property with Ekakshar Buildtech – Premium residential and investment options in a well-planned, thriving community."/>
+        <meta name="author" content="Ekakshar Buildtech"/>
+        <meta name="owner" content="Ekakshar Buildtech"/>
+        <meta name="language" content="en-us"/>
+        <meta name="coverage" content="Global"/>
+        <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW"/>
+        <meta name="doc-type" content="Webpage"/>
+        <meta name="revisit-after" content="7 days"/>
         <meta property="og:image" content="/khatushyam.webp" />
-        <meta
-          property="og:url"
-          content="https://ekaksharbuildtech.com//shree-shyam-township"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ekakshar Buildtech" />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://ekaksharbuildtech.com//shree-shyam-township"
-        />
-        <meta
-          name="keywords"
-          content="Best Property in Sikar, Best Property near Khatu Shyam ,  Buy Plots near Khatu Shyam Temple, Buy Plots in Sikar, Best Property near Khatu Shyam Mandir, Plots for sale in Shree Shayam Township, Shree Shayam Township in sikar , shree shyam township, Ekakshar Buildtech"
-        />
       </Helmet>
       <div className=" innerbackground-video">
         <video

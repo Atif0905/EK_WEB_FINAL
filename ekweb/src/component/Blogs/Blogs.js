@@ -8,17 +8,24 @@ const Blogs = () => {
   return (
     <div>
       <Helmet>
-        <title>Blog | Insights from the Best Real Estate Company in Delhi NCR</title>
-        <meta name="description" content="Read blogs from Ekakshar Buildtech, the best real estate company in Delhi NCR, for expert insights and updates on the real estate market."
-        />
-       <meta property="og:title" content="Ekakshar Buildtech Blog | Insights on Real Estate and Property Trends" />
-        <meta property="og:description" content="Stay updated with Ekakshar Buildtech's blog, offering expert insights, tips, and the latest trends in the real estate market. Explore valuable information to guide your property decisions." />
+        <title>Ekakshar Buildtech Real Estate Agency - Noida Sector 136</title>
+        <meta name="title" content="Ekakshar Buildtech Real Estate Agency - Noida Sector 136"/>
+        <meta name="description" content="Ekakshar Buildtech - A trusted real estate agency in Noida Sector 136, offering expert property buying, selling, and investment services."/>
+        <meta name="keywords" content="Ekakshar Buildtech Real Estate Agency, Ekakshar Buildtech Real Estate Agencies, Real Estate Agency Noida Sector 136, Real Estate Agencies Noida Sector 136, Commercial Property in Noida, Residential Property in Delhi NCR"/>
+        <link rel="canonical" href="https://ekaksharbuildtech.com/our-blogs"/>
+        <meta name="DC.Title" content="Ekakshar Buildtech Real Estate Agency - Noida Sector 136"/>
+        <meta name="DC.Subject" content="Ekakshar Buildtech - A trusted real estate agency in Noida Sector 136, offering expert property buying, selling, and investment services."/>
+        <meta property="og:title" content="Ekakshar Buildtech Real Estate Agency - Noida Sector 136"/>
+        <meta property="og:description" content="Ekakshar Buildtech - A trusted real estate agency in Noida Sector 136, offering expert property buying, selling, and investment services."/>
+        <meta name="author" content="Ekakshar Buildtech"/>
+        <meta name="owner" content="Ekakshar Buildtech"/>
+        <meta name="language" content="en-us"/>
+        <meta name="coverage" content="Global"/>
+        <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW"/>
+        <meta name="doc-type" content="Webpage"/>
+        <meta name="revisit-after" content="7 days"/>
         <meta property="og:image" content="/bluelogo.webp" />
-        <meta property="og:url" content="https://ekaksharbuildtech.com/our-blogs" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ekakshar Buildtech" />
-         <meta name="robots" content="index, follow"/>
-         <link rel="canonical" href="https://ekaksharbuildtech.com/our-blogs" />
       </Helmet>
       <Blogssec1 />
       <Blogssec2 />

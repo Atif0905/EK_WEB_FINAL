@@ -80,33 +80,24 @@ const Ekakshargreenfarms = () => {
   return (
     <div>
       <Helmet>
-        <title> Ekakshar Green Farms | Buy Farmhouse Plots in Jewar</title>
-        <meta
-          name="description"
-          content="Explore Ekakshar Green Farms and buy farmhouse plots in Jewar. Embrace luxury living with spacious plots surrounded by nature, perfect for your dream farmhouse."
-        />
-        <meta
-          property="og:title"
-          content="Ekakshar Green Farms | Buy Farmhouse Plots in Jewar"
-        />
-        <meta
-          property="og:description"
-          content="Explore Ekakshar Green Farms and buy farmhouse plots in Jewar. Embrace luxury living with spacious plots surrounded by nature, perfect for your dream farmhouse."
-        />
-        <meta property="og:image" content="/greenfarms-outer.webp" />
-        <meta
-          property="og:url"
-          content="https://ekaksharbuildtech.com/ekakshar-green-farms/"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ekakshar Buildtech" />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://ekaksharbuildtech.com/ekakshar-green-farms/"
-        />
-        <meta name="keywords" content="Farms near jewar airport, Ekakshar green woods in jewar, Farms for sale near noida airport, Farms for sale at yamuna expressway, land near jewar airport, Ekakshar Buildtech" />
-      </Helmet>
+        <title>Buy Ekakshar Green Farms Property - Ekakshar Buildtech</title>
+        <meta name="title" content="Buy Ekakshar Green Farms Property - Ekakshar Buildtech"/>
+        <meta name="description" content="Buy Ekakshar Green Farms property with Ekakshar Buildtech – Premium farmland and investment opportunities with expert real estate guidance."/>
+        <meta name="keywords" content="Buy Ekakshar Green Farms Property, Luxury Ekakshar Green Farms Property, Real Estate Advisor in Noida, Real Estate Broker in Noida, Property in Falaida Khadar Jewar, Luxury Property in Falaida Khadar Jewar, Prime Property in Falaida Khadar Jewar, Residential Property in Falaida Khadar Jewar, Commercial Property in Falaida Khadar Jewar"/>
+        <link rel="canonical" href="https://ekaksharbuildtech.com/ekakshar-green-farms"/>
+        <meta name="DC.Title" content="Buy Ekakshar Green Farms Property - Ekakshar Buildtech"/>
+        <meta name="DC.Subject" content="Buy Ekakshar Green Farms property with Ekakshar Buildtech – Premium farmland and investment opportunities with expert real estate guidance."/>
+        <meta property="og:title" content="Buy Ekakshar Green Farms Property - Ekakshar Buildtech"/>
+        <meta property="og:description" content="Buy Ekakshar Green Farms property with Ekakshar Buildtech – Premium farmland and investment opportunities with expert real estate guidance."/>
+        <meta name="author" content="Ekakshar Buildtech"/>
+        <meta name="owner" content="Ekakshar Buildtech"/>
+        <meta name="language" content="en-us"/>
+        <meta name="coverage" content="Global"/>
+        <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW"/>
+        <meta name="doc-type" content="Webpage"/>
+        <meta name="revisit-after" content="7 days"/>
+        <meta property="og:image" content="/greenfarms-outer.webp" /></Helmet>
       <div className="">
         <div className=" innerbackground-video">
           <video

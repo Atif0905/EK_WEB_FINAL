@@ -8,31 +8,24 @@ const Team = () => {
   return (
     <div>
       <Helmet>
-        <title>
-          Team |Best Real Estate Consultancy Experts at Ekakshar Buildtech
-        </title>
-        <meta
-          name="description"
-          content="Meet Ekakshar Buildtech's team, the best real estate consultancy in Noida, dedicated to top service and quality in every project."
-        />
-        <meta
-          property="og:title"
-          content="Meet Our Team | Ekakshar Buildtech | Real Estate Experts"
-        />
-        <meta
-          property="og:description"
-          content="Get to know the dedicated and experienced team behind Ekakshar Buildtech. Learn about our professionals who are committed to delivering exceptional real estate solutions."
-        />
+        <title>Ekakshar Buildtech Real Estate Agents - Noida Sector 136</title>
+        <meta name="title" content="Ekakshar Buildtech Real Estate Agents - Noida Sector 136"/>
+        <meta name="description" content="Ekakshar Buildtech – Professional real estate agents in Noida Sector 136, helping you buy, sell, and invest in properties with expert guidance."/>
+        <meta name="keywords" content="Ekakshar Buildtech Real Estate Agents, Ekakshar Buildtech Real Estate Broker, Real Estate Agents Noida Sector 136, Real Estate Broker Noida Sector 136, Prime Property in Noida, Prime Property in Delhi NCR"/>
+        <link rel="canonical" href="https://ekaksharbuildtech.com/our-team"/>
+        <meta name="DC.Title" content="Ekakshar Buildtech Real Estate Agents - Noida Sector 136"/>
+        <meta name="DC.Subject" content="Ekakshar Buildtech – Professional real estate agents in Noida Sector 136, helping you buy, sell, and invest in properties with expert guidance."/>
+        <meta property="og:title" content="Ekakshar Buildtech Real Estate Agents - Noida Sector 136"/>
+        <meta property="og:description" content="Ekakshar Buildtech – Professional real estate agents in Noida Sector 136, helping you buy, sell, and invest in properties with expert guidance."/>
+        <meta name="author" content="Ekakshar Buildtech"/>
+        <meta name="owner" content="Ekakshar Buildtech"/>
+        <meta name="language" content="en-us"/>
+        <meta name="coverage" content="Global"/>
+        <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW"/>
+        <meta name="doc-type" content="Webpage"/>
+        <meta name="revisit-after" content="7 days"/>
         <meta property="og:image" content="/bluelogo.webp" />
-        <meta
-          property="og:url"
-          content="https://ekaksharbuildtech.com/our-team"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ekakshar Buildtech" />
-
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ekaksharbuildtech.com/our-team" />
       </Helmet>
       <Teamsec1 />
       <Teamsec2 />

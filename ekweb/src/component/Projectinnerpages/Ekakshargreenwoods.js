@@ -80,35 +80,25 @@ const Ekakshargreenwoods = () => {
   return (
     <div>
       <Helmet>
-        <title>
-          Ekakshar Green Woods | Buy Plot in Jewar , Residential Plot in jewar{" "}
-        </title>
-        <meta
-          name="description"
-          content="Buy a plot in Jewar at Ekakshar Green Woods. Explore premium residential plots with world-class amenities, offering a serene and peaceful living experience."
-        />
-        <meta
-          property="og:title"
-          content="Ekakshar Green Woods | Buy Plot in Jewar ,  Residential Plot in jewar "
-        />
-        <meta
-          property="og:description"
-          content="Buy a plot in Jewar at Ekakshar Green Woods. Explore premium residential plots with world-class amenities, offering a serene and peaceful living experience."
-        />
+        <title>Buy Ekakshar Green Woods Property - Ekakshar Buildtech</title>
+        <meta name="title" content="Buy Ekakshar Green Woods Property - Ekakshar Buildtech"/>
+        <meta name="description" content="Buy Ekakshar Green Woods property with Ekakshar Buildtech – Ideal residential and investment opportunities surrounded by nature and tranquility."/>
+        <meta name="keywords" content="Buy Ekakshar Green Woods Property, Luxury Ekakshar Green Woods Property, Real Estate Agents in Noida, Real Estate Services in Noida, Property in Palwal Haryana, Luxury Property in Palwal Haryana, Prime Property in Palwal Haryana, Residential Property in Palwal Haryana, Commercial Property in Palwal Haryana"/>
+        <link rel="canonical" href="https://ekaksharbuildtech.com/ekakshar-green-woods"/>
+        <meta name="DC.Title" content="Buy Ekakshar Green Woods Property - Ekakshar Buildtech"/>
+        <meta name="DC.Subject" content="Buy Ekakshar Green Woods property with Ekakshar Buildtech – Ideal residential and investment opportunities surrounded by nature and tranquility."/>
+        <meta property="og:title" content="Buy Ekakshar Green Woods Property - Ekakshar Buildtech"/>
+        <meta property="og:description" content="Buy Ekakshar Green Woods property with Ekakshar Buildtech – Ideal residential and investment opportunities surrounded by nature and tranquility."/>
+        <meta name="author" content="Ekakshar Buildtech"/>
+        <meta name="owner" content="Ekakshar Buildtech"/>
+        <meta name="language" content="en-us"/>
+        <meta name="coverage" content="Global"/>
+        <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW"/>
+        <meta name="doc-type" content="Webpage"/>
+        <meta name="revisit-after" content="7 days"/>
         <meta property="og:image" content="/greenwoodsouter.webp" />
-        <meta
-          property="og:url"
-          content="https://ekaksharbuildtech.com/ekakshar-green-woods/"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ekakshar Buildtech" />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://ekaksharbuildtech.com/ekakshar-green-woods/"
-        />
-        <meta name="keywords" content="Plots near jewar airport, Ekakshar green woods in jewar, plot for sale near noida airport, plot for sale at yamuna expressway, land near jewar airport, Ekakshar Buildtech " />
-      </Helmet>
+        </Helmet>
       <div className="">
         <div className=" innerbackground-video">
           <video

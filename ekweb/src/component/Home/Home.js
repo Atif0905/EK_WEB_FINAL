@@ -48,83 +48,57 @@ const Home = () => {
     []
   );
   const structuredData1 = useMemo(
-    () => (  {
+    () => ({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "itemListElement": [
+      itemListElement: [
         {
           "@type": "ListItem",
-          "position": 1,
-          "name": "About Us",
+          "position": "1",
+          "name": "Ekakshar Buildtech",
+          "item": "https://ekaksharbuildtech.com/"
+        },
+          {
+          "@type": "ListItem",
+          "position": "2",
+          "name": "About",
           "item": "https://ekaksharbuildtech.com/about-us"
         },
-        {
+          {
           "@type": "ListItem",
-          "position": 2,
-          "name": "Contact",
-          "item": "https://ekaksharbuildtech.com/Contact"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Blogs",
-          "item": "https://ekaksharbuildtech.com/our-blogs"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Shree Shyam Aerocity",
-          "item": "https://ekaksharbuildtech.com/shree-shyam-aerocity"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Shree Shyam Township",
-          "item": "https://ekaksharbuildtech.com/shree-shyam-township"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Bliss Valley",
-          "item": "https://ekaksharbuildtech.com/bliss-valley"
+          "position": "3",
+          "name": "Projects",
+          "item": "https://ekaksharbuildtech.com/project"
         }
-      ]
+      ],
     }),
     []
   );
   return (
     <div>
       <Helmet>
-        <title> Ekakshar Buildtech | Best Real Estate Services </title>
+        <title>Ekakshar Buildtech Private Limited - Noida Sector 136</title>
         <meta name="title" content="Home | Ekakshar Buildtech" />
-        <meta
-          name="description"
-          content="Ekakshar Buildtech offers reliable real estate services in Noida, specializing in buying, selling, and renting properties. Expert guidance for seamless deals!"
-        />
-        <meta
-          name="keywords"
-          content="Property in India, Real Estate India, Best Real Estate company in Noida , Properties In India, Property For Sale, Real Estate services in Noida , Buy Property In India, Commercial Property in India, Property for Best Real estate agency , Ekakshar Buildtech"
-        />
-        <meta name="robots" content="index, follow" />
+        <meta name="title"content="Ekakshar Buildtech Private Limited - Noida Sector 136"/>
+        <meta name="description" content="Ekakshar Buildtech Pvt. Ltd. - Trusted real estate developers in Noida Sector 136, delivering quality construction & innovative infrastructure solutions."/>
+        <meta name="keywords" content="Ekakshar, Ekakshar Buildtech, Ekakshar Buildtech Pvt Ltd, Ekakshar Buildtech Private Limited, Ekakshar Buildtech Real Estate Firms, Ekakshar Buildtech Real Estate Company, Residential Property in Noida, Commercial Property in Delhi NCR"/>
         <link rel="canonical" href="https://ekaksharbuildtech.com/" />
-
-        <meta
-          property="og:title"
-          content="Ekakshar Buildtech | Best Real Estate Services"
-        />
-        <meta
-          property="og:description"
-          content="Ekakshar Buildtech offers reliable real estate services in Noida, specializing in buying, selling, and renting properties. Expert guidance for seamless deals!"
-        />
-        <meta
-          property="og:image"
-          content="https://ekaksharbuildtech.com/bluelogo.webp"
-        />
+        <meta name="DC.Title" content="Ekakshar Buildtech Private Limited - Noida Sector 136"/>
+        <meta name="DC.Subject" content="Ekakshar Buildtech Pvt. Ltd. - Trusted real estate developers in Noida Sector 136, delivering quality construction & innovative infrastructure solutions."/>
+        <meta property="og:title" content="Ekakshar Buildtech Private Limited - Noida Sector 136"/>
+        <meta property="og:description" content="Ekakshar Buildtech Pvt. Ltd. - Trusted real estate developers in Noida Sector 136, delivering quality construction & innovative infrastructure solutions." />
+        <meta name="author" content="Ekakshar Buildtech" />
+        <meta name="owner" content="Ekakshar Buildtech" />
+        <meta name="language" content="en-us" />
+        <meta name="coverage" content="Global" />
+        <meta name="robots" content="INDEX,FOLLOW" />
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW" />
+        <meta name="doc-type" content="Webpage" />
+        <meta name="revisit-after" content="7 days" />
+        <meta property="og:image" content="https://ekaksharbuildtech.com/bluelogo.webp"/>
         <meta property="og:url" content="https://ekaksharbuildtech.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Ekakshar Buildtech" />
-
-        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

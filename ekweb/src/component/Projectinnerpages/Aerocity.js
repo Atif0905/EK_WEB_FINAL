@@ -80,35 +80,24 @@ const Aerocity = () => {
   return (
     <div>
       <Helmet>
-        <title>Shree Shyam Aerocity | Buy Plots near Domestic Airport</title>
-        <meta
-          name="description"
-          content="Buy premium residential plots near the Domestic Airport and Khatu Shyam Temple with Ekakshar Buildtech Invest in a prime location for growth and convenience."
-        />
-        <meta
-          property="og:title"
-          content="Shree Shyam Aerocity | Premium Real Estate by Ekakshar Buildtech"
-        />
-        <meta
-          property="og:description"
-          content="Explore Shree Shyam Aerocity, an exceptional real estate project by Ekakshar Buildtech. Offering modern amenities, strategic location, and unparalleled comfort for a superior living experience."
-        />
+        <title>Buy Shree Shyam Aerocity Property - Ekakshar Buildtech</title>
+        <meta name="title" content="Buy Shree Shyam Aerocity Property - Ekakshar Buildtech"/>
+        <meta name="description" content="Buy Shree Shyam Aerocity property with Ekakshar Buildtech – Prime real estate options in a rapidly developing location, perfect for investment and living."/>
+        <meta name="keywords" content="Buy Shree Shyam Aerocity Property, Luxury Shree Shyam Aerocity Property, Real Estate Agency in Noida, Real Estate Agencies in Noida, Property in Sikar Rajasthan, Luxury Property in Sikar Rajasthan, Prime Property in Sikar Rajasthan, Residential Property in Sikar Rajasthan, Commercial Property in Sikar Rajasthan"/>
+        <link rel="canonical" href="https://ekaksharbuildtech.com/shree-shyam-aerocity"/>
+        <meta name="DC.Title" content="Buy Shree Shyam Aerocity Property - Ekakshar Buildtech"/>
+        <meta name="DC.Subject" content="Buy Shree Shyam Aerocity property with Ekakshar Buildtech – Prime real estate options in a rapidly developing location, perfect for investment and living."/>
+        <meta property="og:title" content="Buy Shree Shyam Aerocity Property - Ekakshar Buildtech"/>
+        <meta property="og:description" content="Buy Shree Shyam Aerocity property with Ekakshar Buildtech – Prime real estate options in a rapidly developing location, perfect for investment and living."/>
+        <meta name="author" content="Ekakshar Buildtech"/>
+        <meta name="owner" content="Ekakshar Buildtech"/>
+        <meta name="language" content="en-us"/>
+        <meta name="coverage" content="Global"/>
+        <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW"/>
+        <meta name="doc-type" content="Webpage"/>
+        <meta name="revisit-after" content="7 days"/>
         <meta property="og:image" content="/aerocity.webp" />
-        <meta
-          property="og:url"
-          content="https://ekaksharbuildtech.com/shree-shyam-aerocity"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ekakshar Buildtech" />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://ekaksharbuildtech.com/shree-shyam-aerocity"
-        />
-        <meta
-          name="keywords"
-          content="Best Property in Sikar, Best Property near Airport,  Best Property near Domestic Airport, Buy Plots in Sikar, Buy Plots in near Airport, Best Property near Khatu Shyam Mandir and Airport, Plots for sale in shree shyam aerocity, Shree Shyam Aerocity in sikar ."
-        />
       </Helmet>
       <div className=" innerbackground-video">
         <video

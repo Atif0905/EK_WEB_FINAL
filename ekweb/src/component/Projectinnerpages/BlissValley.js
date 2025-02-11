@@ -77,35 +77,24 @@ const BlissValley = () => {
   return (
     <div>
       <Helmet>
-        <title>Bliss Valley | Buy Property in Dehradun </title>
-        <meta
-          name="description"
-          content="Ekakshar Buildtech offers premium real estate services to help you buy property in Dehradun, near Paonta Sahib Gurudwara. Your dream home awaits!"
-        />
-        <meta
-          property="og:title"
-          content="Bliss Valley | Luxury Real Estate by Ekakshar Buildtech"
-        />
-        <meta
-          property="og:description"
-          content="Discover Bliss Valley, an exclusive luxury real estate project by Ekakshar Buildtech. Experience high-end living with modern amenities and exceptional design."
-        />
+        <title>Buy Bliss Valley Property - Ekakshar Buildtech</title>
+        <meta name="title" content="Buy Bliss Valley Property - Ekakshar Buildtech"/>
+        <meta name="description" content="Buy Bliss Valley property with Ekakshar Buildtech – Premium real estate options with expert guidance for a seamless buying experience."/>
+        <meta name="keywords" content="Buy Bliss Valley Property, Luxury Bliss Valley Property, Real Estate Company in Noida, Real Estate Firms in Noida, Property in Dehradun, Luxury Property in Dehradun, Prime Property in Dehradun, Residential Property in Dehradun, Commercial Property in Dehradun"/>
+        <link rel="canonical" href="https://ekaksharbuildtech.com/bliss-valley"/>
+        <meta name="DC.Title" content="Buy Bliss Valley Property - Ekakshar Buildtech"/>
+        <meta name="DC.Subject" content="Buy Bliss Valley property with Ekakshar Buildtech – Premium real estate options with expert guidance for a seamless buying experience."/>
+        <meta property="og:title" content="Buy Bliss Valley Property - Ekakshar Buildtech"/>
+        <meta property="og:description" content="Buy Bliss Valley property with Ekakshar Buildtech – Premium real estate options with expert guidance for a seamless buying experience."/>
+        <meta name="author" content="Ekakshar Buildtech"/>
+        <meta name="owner" content="Ekakshar Buildtech"/>
+        <meta name="language" content="en-us"/>
+        <meta name="coverage" content="Global"/>
+        <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW"/>
+        <meta name="doc-type" content="Webpage"/>
+        <meta name="revisit-after" content="7 days"/>
         <meta property="og:image" content="/blissvalley.webp" />
-        <meta
-          property="og:url"
-          content="https://ekaksharbuildtech.com/bliss-valley"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Ekakshar Buildtech" />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://ekaksharbuildtech.com/bliss-valley"
-        />
-        <meta
-          name="keywords"
-          content="Best Property in Dehradun, Buy Plots in Dehradun,  Residential Plots Dehradun, Best Plots in Dehradun, Best investment plots in Hills, Best Property in Hills, Plots Under 25 Lakhs in Dehradun, Bliss Valley, Plots for sale in Bliss Vlley , Bliss Valley in dehradun"
-        />
       </Helmet>
       <div className="">
         <div className=" innerbackground-video">
