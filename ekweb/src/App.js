@@ -29,8 +29,9 @@ import Ekakshargreenwoods from "./component/Projectinnerpages/Ekakshargreenwoods
 import Ekakshargreenfarms from "./component/Projectinnerpages/Ekakshargreenfarms";
 import Notfound from "./Notfound";
 import "./App.css";
-
-const App = () => (
+import Keyword from "./component/Keyword/Keyword";
+import routeData from "./Routedata.json";
+const App = (props) => (
   <div className="App">
     <ScrollTop />
     <Navbar />
@@ -60,6 +61,22 @@ const App = () => (
       <Route path="/sitemap" element={<Sitemap />} />
       <Route path="/cir" element={<Cir />} />
       <Route path="*" element={<Notfound />} />
+        {routeData.map((route, index) => (
+          <Route
+            key={index}
+            path={route.path}
+            element={
+              <Keyword
+                subhead1={route.subhead1}
+                title={route.title}
+                description={route.description}
+                Keyword={route.Keyword}
+                canonical={route.canonical}
+                content={route.content}
+              />
+            }
+          />
+        ))}
     </Routes>
     <Footer />
   </div>

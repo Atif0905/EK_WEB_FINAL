@@ -1,9 +1,28 @@
 import React from 'react';
 import data from './Privacy.json';
+import { Helmet } from 'react-helmet';
 const PrivacyStatement = () => {
   const { introduction, informationCollection, dataUsage, dataSharingAndDisclosure, securityMeasures, dataRetention, cookiesAndTracking } = data.privacyPolicy;
 
   return (
+    <div>
+      <Helmet>
+        <title>Ekakshar Buildtech Real Estate Consultancy - Noida Sector 136</title>
+      <meta name="description" content="Read the privacy policy of Ekakshar BuildTech to understand how we collect, use, and protect your personal information. Your privacy and data security are our top priorities."/>
+      <meta name="name:title" content="Ekakshar Buildtech Real Estate Consultancy - Noida Sector 136" />
+      <link rel="canonical" href="https://ekaksharbuildtech.com/privacystatement" />
+      <meta name="author" content="Ekakshar Buildtech" />
+        <meta name="owner" content="Ekakshar Buildtech" />
+        <meta name="language" content="en-us" />
+        <meta name="coverage" content="Global" />
+        <meta name="robots" content="INDEX,FOLLOW" />
+        <meta name="GOOGLEBOT" content="INDEX, FOLLOW" />
+        <meta name="doc-type" content="Webpage" />
+        <meta name="revisit-after" content="7 days" />
+        <meta property="og:image" content="https://ekaksharbuildtech.com/bluelogo.webp" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Ekakshar Buildtech" />
+      </Helmet>
     <div className='container'>
         <div className='privacymaindiv'>
       <h1 className='privacy_head'>Privacy Policy</h1>
@@ -85,6 +104,7 @@ const PrivacyStatement = () => {
           ))}
         </ul>
       </section>
+    </div>
     </div>
     </div>
   );

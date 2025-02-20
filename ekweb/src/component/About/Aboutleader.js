@@ -53,17 +53,17 @@ const leaderData = [
   },
   {
     imgSrc: '/circlemansi.webp',
-    name: 'Miss Mansi Chauhan',
+    name: 'Ms. Mansi Chauhan',
     designation: 'Accounts Manager'
   },
   {
-    imgSrc: '/circletannu.webp',
-    name: 'Miss Tannu Gupta',
+    imgSrc: '/aarju.webp',
+    name: 'Ms. Aarju Singh',
     designation: 'HR Manager'
   },
   {
     imgSrc: '/circleswati.webp',
-    name: 'Miss Swati Singh',
+    name: 'Ms. Swati Singh',
     designation: 'Admin Manager'
   },
   {

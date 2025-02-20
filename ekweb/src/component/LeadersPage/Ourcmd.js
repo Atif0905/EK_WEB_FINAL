@@ -43,7 +43,7 @@ const Ourcmd = () => {
         <div className="leadergrid">
           <div className="relative">
             <img src="/ekaksharcircle.webp" className="lettercircle" alt="" />
-            <img src="/rohitsir.webp" className="ceoimg" alt="" />
+            <img src="/rohitsirimg.jpeg" className="ceoimg" alt="" />
             <div className="ceocircle1"></div>
           </div>
 

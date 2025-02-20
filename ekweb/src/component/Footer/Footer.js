@@ -100,24 +100,21 @@ const Footer = () => {
             </div>
 
             <div className='p-2 lapview listmargin '>
-              <h4 className='footerhead'>Quick Links</h4>
+              <h4 className='footerhead'>Our Projects</h4>
               <li className='footerlist mt-4'>
-                <a href='/'>Buy Property With Ekakshar</a>
+                <a href='/shree-shyam-aerocity'>Shree Shyam Aerocity</a>
               </li>
               <li className='footerlist'>
-                <a href='/contact-us'> Plots In Sikar Rajasthan</a>
+                <a href='/shree-shyam-township'>Shree Shyam Townships</a>
               </li>
               <li className='footerlist'>
-                <a href='/shree-shyam-aerocity'> Plots Near Sikar Airport</a>
+                <a href='/bliss-valley'>Bliss Valley</a>
               </li>
               <li className='footerlist'>
-                <a href='/ekakshar-green-farms'> Farms Near Jewar Airport </a>
+                <a href='/ekakshar-green-farms'>Ekakshar Green Farms </a>
               </li>
               <li className='footerlist'>
-                <a href='/ekakshar-green-woods'> Plots Near Noida Airport </a>
-              </li>
-              <li className='footerlist'>
-                <a href='/bliss-valley'> Plots In Dehradun </a>
+                <a href='/ekakshar-green-woods'>Ekakshar Green Woods</a>
               </li>
             </div>
 

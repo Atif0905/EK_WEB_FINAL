@@ -3,8 +3,6 @@ import './HomeLeader.css';
 import emailjs from "emailjs-com";
 const HomeLast = () => {
   const [isModalOpen, setModalOpen] = useState(false);
-  const handleOpenModal = () => setModalOpen(true);
-  const handleCloseModal = () => setModalOpen(false);
     const [showModal, setShowModal] = useState(false);
     const [errorModal, setErrorModal] = useState(false);
     const [formData, setFormData] = useState({
@@ -19,7 +17,7 @@ const HomeLast = () => {
       setFormData({ ...formData, [name]: value });
     };
   
-         const handleSubmit = async (e) => {
+    const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await emailjs.send(
@@ -43,7 +41,15 @@ const HomeLast = () => {
       setErrorModal(true);
       console.error("EmailJS Error:", error);
     }
-  };
+    };
+    const handleOpenModal = () => {
+      setModalOpen(true);
+      document.body.style.overflow = "hidden"; // Disable scrolling
+    };
+    const handleCloseModal = () => {
+      setModalOpen(false);
+      document.body.style.overflow = ""; // Enable scrolling
+    };
     const closeModal = () => {
       setShowModal(false);
     };

@@ -216,7 +216,14 @@ a {
     opacity: 1;
   }
 }
-
+.home_hero_heading1 {
+  font-size: 3.4vw;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  color: #000000;
+}
 .homemodal {
   position: fixed;
   top: 0;
@@ -272,6 +279,10 @@ a {
   }
   .home_hero_heading {
     font-size: 3.6vw;
+    line-height: 1.2;
+  }
+  .home_hero_heading1 {
+    font-size: 2.5vw;
     line-height: 1.2;
   }
   .backtop {
@@ -331,6 +342,9 @@ a {
   }
   .home_hero_heading {
     font-size: 6.2vw;
+  }
+  .home_hero_heading1 {
+    font-size: 5.5vw;
   }
   .container_backdiv {
     padding-left: 8%;

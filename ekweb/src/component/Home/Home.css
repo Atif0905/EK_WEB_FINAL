@@ -3,14 +3,14 @@
   height: 100%;
   padding-top: 70px;
 }
-.home_herodiv1{
+.home_herodiv1 {
   padding-top: 3%;
 }
 .home_herodiv {
   width: 100%;
   height: 125%;
-  background: linear-gradient( 180deg, white, rgb(161, 198, 215) 100%  );
-  opacity: .8;
+  background: linear-gradient(180deg, white, rgb(161, 198, 215) 100%);
+  opacity: 0.8;
   border-radius: 0 0 800px 800px;
   position: absolute;
   z-index: -1;
@@ -55,6 +55,9 @@
   border-radius: 20px;
   box-shadow: 3px 4px 10px 0px #00000033;
   position: absolute;
+}
+.home_hero_txtdiv1 {
+  width: 90%;
 }
 .swip_circle {
   width: 35px;
@@ -122,7 +125,7 @@
   -webkit-appearance: none;
   margin: 0;
 }
-.infield[type=number] {
+.infield[type="number"] {
   -moz-appearance: textfield;
 }
 .infield::placeholder {
@@ -153,18 +156,16 @@
   text-align: center;
   color: #ffffff;
 }
-
 .custom-pagination {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-
 .custom-pagination .swiper-pagination-bullet {
   width: 100%;
   height: 4px;
   margin: 0 10px !important;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
@@ -247,18 +248,18 @@
   width: 100%;
   height: 100%;
 }
-.blue_circle1, 
-.blue_circle2, 
+.blue_circle1,
+.blue_circle2,
 .blue_circle {
   border-radius: 50%;
   opacity: 50%;
   position: absolute;
 }
-.blue_circle1, 
+.blue_circle1,
 .blue_circle2 {
   width: 60px;
   height: 60px;
-  background: linear-gradient(180deg, #173A4B 0%, rgba(67, 97, 238, 0) 100%);
+  background: linear-gradient(180deg, #173a4b 0%, rgba(67, 97, 238, 0) 100%);
 }
 .blue_circle1 {
   top: 3%;
@@ -311,8 +312,7 @@
 .exe_img {
   width: 100%;
   height: 22rem;
-  background: linear-gradient(0deg, #d9d9d9, #d9d9d9),
-    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(0deg, #d9d9d9, #d9d9d9), linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
   object-fit: cover;
   border-radius: 30px;
 }
@@ -348,8 +348,6 @@
   font-weight: 500;
   line-height: 1;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #2b2b2b;
 }
 .why_maindiv {
@@ -415,7 +413,7 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(180deg, rgb(113, 146, 174) 0%, rgb(221,225,238,0) 100%);
+  background: linear-gradient( 180deg, rgb(113, 146, 174) 0%, rgb(221, 225, 238, 0) 100%);
   opacity: 50%;
   position: absolute;
   top: 26%;
@@ -426,7 +424,11 @@
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background: linear-gradient(180deg, rgb(91, 138, 178) 0%, rgb(221,225,238,0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(91, 138, 178) 0%,
+    rgb(221, 225, 238, 0) 100%
+  );
   opacity: 50%;
   position: absolute;
   top: -6%;
@@ -436,7 +438,11 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: linear-gradient(180deg, rgb(101, 139, 172) 0%, rgb(221,225,238,0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(101, 139, 172) 0%,
+    rgb(221, 225, 238, 0) 100%
+  );
   opacity: 50%;
   position: absolute;
   bottom: -4%;
@@ -454,9 +460,7 @@
 .home_exclusive_txtdiv {
   width: 60%;
 }
-
-
-@media (min-width:1340px) {
+@media (min-width: 1340px) {
   .home_herodiv {
     width: 100%;
     height: 100%;
@@ -464,35 +468,35 @@
   .infield {
     height: 4.4rem;
   }
-  .registerinfield{
+  .registerinfield {
     height: 4rem;
   }
   .home_herodiv1 {
     padding-top: 4%;
-}
-.whyek_card{
-  height: 22rem;
-}
-.hero_swip {
-  height: 21em;
-}
-.homeabt1 {
-  height: 32rem;
-}
-.homeabt2 {
-  height: 14rem;
-}
-.homeabt3 {
-  height: 12rem;
-}
-.exe_img{
-  height: 25rem;
-}
+  }
+  .whyek_card {
+    height: 22rem;
+  }
+  .hero_swip {
+    height: 21em;
+  }
+  .homeabt1 {
+    height: 32rem;
+  }
+  .homeabt2 {
+    height: 14rem;
+  }
+  .homeabt3 {
+    height: 12rem;
+  }
+  .exe_img {
+    height: 25rem;
+  }
 }
 @media (max-width: 1024px) {
   .home_herodiv {
     height: 43rem;
-}
+  }
   .homehero_grid {
     grid-template-columns: 60% auto;
   }
@@ -527,7 +531,6 @@
     top: 25%;
   }
 }
-
 @media (max-width: 992px) {
   .hero_blue_circle {
     width: 50px;
@@ -557,7 +560,6 @@
   }
   .infield::placeholder {
     font-size: 12px;
-
   }
   .regbtn {
     height: 40px;
@@ -646,9 +648,8 @@
     padding-top: 3%;
     width: 100%;
     height: 34rem;
+  }
 }
-}
-
 @media (max-width: 767px) {
   .home_exclusive_txtdiv {
     width: 100%;
@@ -661,7 +662,6 @@
     grid-template-columns: 100%;
     grid-gap: 30px;
   }
-
   .hero_swip {
     margin-top: 20px;
   }
@@ -672,6 +672,9 @@
   .home_hero_txtdiv {
     width: 100%;
   }
+  .home_hero_txtdiv1 {
+    width: 100%;
+}
   .swip_content {
     width: 100%;
   }
@@ -685,7 +688,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
   }
-
   .homeabt_data {
     padding: 10px 30px 5px 30px;
     width: 100%;
@@ -704,21 +706,20 @@
     top: -6%;
   }
   .blue_circle1 {
-  display: none;
+    display: none;
   }
-  .homeabt_mobdiv{
+  .homeabt_mobdiv {
     position: relative;
   }
-  .abt_blue_circle3{
+  .abt_blue_circle3 {
     bottom: 40%;
     right: -4%;
     position: absolute;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: linear-gradient(180deg, #173A4B 0%, rgba(67, 97, 238, 0) 100%);
+    background: linear-gradient(180deg, #173a4b 0%, rgba(67, 97, 238, 0) 100%);
   }
-
   .blue_circle {
     width: 70px;
     height: 70px;
@@ -745,11 +746,11 @@
     position: relative;
     z-index: 1;
   }
-  .excl_bluediv{
+  .excl_bluediv {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background: linear-gradient(180deg, #173A4B 0%, rgba(67, 97, 238, 0) 100%);
+    background: linear-gradient(180deg, #173a4b 0%, rgba(67, 97, 238, 0) 100%);
     position: absolute;
     bottom: 22%;
     left: -4%;
@@ -784,7 +785,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
   }
-  .why_subheading_div{
+  .why_subheading_div {
     margin-bottom: 20%;
     padding: 0px 30px 0px 30px;
   }
@@ -823,8 +824,6 @@
     font-weight: 500;
     line-height: 1.7;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #173a4b;
   }
   .exe_type {
@@ -847,12 +846,10 @@
     font-size: 4vw;
     line-height: 2;
   }
-
 }
 @media (max-width: 320px) {
   .blue_circle1 {
     bottom: 6% !important;
     left: 90%;
   }
-
 }
