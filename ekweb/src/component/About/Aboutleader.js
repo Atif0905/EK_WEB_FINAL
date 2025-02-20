@@ -37,6 +37,11 @@ const leaderData = [
     designation: 'Director'
   },
   {
+    imgSrc: '/deepak-bhardwajsir.webp',
+    name: 'Mr. Deepak Bhardwaj',
+    designation: 'Strategy Director'
+  },
+  {
     imgSrc: '/circlesahil.webp',
     name: 'Mr. Sahil Chahar',
     designation: 'IT Professionals'
