@@ -31,6 +31,7 @@ import Notfound from "./Notfound";
 import "./App.css";
 import Keyword from "./component/Keyword/Keyword";
 import routeData from "./Routedata.json";
+import { Navigate } from "react-router-dom";
 const App = (props) => (
   <div className="App">
     <ScrollTop />
@@ -60,7 +61,6 @@ const App = (props) => (
       <Route path="/government-policies-driving-dehradun's-real-estate-growth" element={<Blogpage5 />} />
       <Route path="/sitemap" element={<Sitemap />} />
       <Route path="/cir" element={<Cir />} />
-      <Route path="*" element={<Notfound />} />
         {routeData.map((route, index) => (
           <Route
             key={index}
@@ -77,6 +77,9 @@ const App = (props) => (
             }
           />
         ))}
+
+  <Route path="/404NotFound" element={<Notfound />} />
+         <Route path="*" element={<Navigate to="/404NotFound" />} />
     </Routes>
     <Footer />
   </div>
