@@ -1,9 +1,0 @@
-User-agent: *
- Disallow: /contactConnectForm.php
- Disallow: /HeroConnectForm.php
- Disallow: /ConnectForm.php
- Disallow: /admin
- Disallow: /Channelform.php
- Disallow: /FooterconnectForm.php 
-
-Sitemap: https://ekaksharbuildtech.com/sitemap.xml
