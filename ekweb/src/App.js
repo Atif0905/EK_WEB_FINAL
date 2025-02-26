@@ -77,14 +77,11 @@ const App = (props) => (
             }
           />
         ))}
-
-  <Route path="/404NotFound" element={<Notfound />} />
-         <Route path="*" element={<Navigate to="/404NotFound" />} />
+         <Route path="*" element={<Navigate to="/" />} />
     </Routes>
     <Footer />
   </div>
 );
-
 const AppWrapper = () => (
   <Router>
     <App />
