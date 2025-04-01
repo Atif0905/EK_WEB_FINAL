@@ -12,19 +12,9 @@ const leaderData = [
     designation: 'Founder & CMD'
   },
   {
-    imgSrc: '/sanjeev-circle.webp',
-    name: 'Mr. Sanjeev Aggarwal',
-    designation: 'CEO'
-  },
-  {
     imgSrc: '/deepak-cicle.webp',
     name: 'Mr. Deepak Sharma',
     designation: 'MD'
-  },
-  {
-    imgSrc: '/circlesunny.webp',
-    name: 'Mr. Sunny Singh',
-    designation: 'Director'
   },
   {
     imgSrc: '/circleSachin-Sir.webp',

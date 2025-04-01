@@ -1,20 +1,20 @@
 {
   "Leader": [
     {
-      "id": "SUNNY-SINGH",
-      "img": "/sunny-sir.webp",
-      "innerimg": "/sunny-sir.webp",
-      "head": "Mr. SUNNY SINGH",
-      "txt": "Director",
-      "LinkedinLink": "https://www.linkedin.com/in/sunny-singh-a1971685/",
-      "InstaLink": "https://www.instagram.com/singhsunny_16/",
+      "id": "RISHABH-AMBAVAT",
+      "img": "/rishab.PNG",
+      "innerimg": "/rishab.PNG",
+      "head": "Mr. Rishabh Ambavat",
+      "txt": "Corporate Director",
+      "LinkedinLink": "",
+      "InstaLink": "",
       "circleImage": "/ekaksharcircle.webp",
-      "quote":"Every property tells a unique story, reflecting vision, hard work, and the pursuit of a better tomorrow.",
+      "quote":"Success in real estate is built on vision, trust, and innovation. At Ekakshar Buildtech, we strive to create lasting value for our clients and communities",
       "arrowImage": "/leaderarrowimg.webp",
-      "canonical": "https://ekaksharbuildtech.com/leader/SUNNY-SINGH",
+      "canonical": "",
       "title": "Sunny Singh | Director - Ekakshar Buildtech Pvt. Ltd.",
       "description": "Meet Sunny Singh, Director at Ekakshar Buildtech Pvt. Ltd., steering the company’s vision and innovation in real estate development across India.",
-      "bio": "Sunny Singh, the visionary director of EkAkshar and owner of Bechogaadi, has played a pivotal role in driving our company's success through exceptional leadership and strategic management. With a keen understanding of the market and an unwavering commitment to excellence, Sunny has effectively guided his sales team to achieve remarkable results.Under his leadership, the sales team has not only met but consistently exceeded targets, contributing significantly to the company's growth and profitability. Sunny's hands-on approach and ability to inspire those around him have fostered a culture of collaboration, motivation, and accountability within the team. He believes in empowering his team members by providing them with the tools and resources they need to succeed, cultivating a strong sense of ownership and pride in their work."
+      "bio": "Rishabh Ambavat, the Corporate Director at Ekakshar Buildtech, brings years of experience and a profound understanding of the real estate industry. His strategic vision and market expertise drive the company’s growth and innovation. With a keen eye on emerging trends, he ensures sustainable and high-value developments. Rishabh’s leadership fosters a culture of excellence, trust, and efficiency. He is dedicated to delivering top-tier real estate solutions that meet client expectations. Under his guidance, Ekakshar Buildtech continues to set new industry benchmarks. His passion for real estate fuels continuous expansion and innovation. Rishabh believes in blending technology with real estate to enhance customer experiences. His commitment to quality and strategic planning strengthens the company’s position in the market. With a focus on excellence, he plays a crucial role in shaping the future of Ekakshar Buildtech."
     },
     {
       "id": "SACHIN-KUMAR",
@@ -59,8 +59,8 @@
       "canonical": "https://ekaksharbuildtech.com/leader/Strategy-Director",
       "title" : "Deepak Bhardwaj | Strategy Director - Ekakshar Buildtech ",
       "description": "Meet Deepak Bhardwaj, the Strategy Director at Ekakshar Buildtech Pvt. Ltd., specializing in innovative technology solutions for real estate development.",
-      "quote": "A strategic director is not just a planner but a visionary—one who sees beyond the present, aligns actions with ambition, and transforms challenges into opportunities.",
-      "bio": "Deepak Bhardwaj is a forward-thinking strategic director with a passion for driving growth and transformation. With years of experience in leadership, he has a knack for spotting opportunities, solving complex challenges, and steering businesses toward long-term success. Known for his analytical mindset and innovative approach, Deepak thrives on crafting strategies that not only meet business goals but also inspire teams to push boundaries. He believes that great leadership is about more than just planning—it’s about empowering people, fostering collaboration, and adapting to an ever-evolving market. Beyond the boardroom, Deepak enjoys mentoring emerging leaders and staying ahead of industry trends. His dedication to continuous learning and improvement fuels his ability to turn ideas into action, ensuring businesses don’t just grow, but thrive."
+      "quote": "Strategic planning is the foundation of sustainable growth. At Ekakshar Buildtech, we craft smart, forward-thinking solutions to shape the future of real estate.",
+      "bio": "Deepak Bhardwaj, the Strategic Director at Ekakshar Buildtech, brings years of real estate expertise and visionary leadership. His deep industry knowledge helps shape innovative and result-driven strategies. With a keen understanding of market dynamics, he formulates growth-oriented plans for the company. Deepak’s experience ensures efficient project execution and long-term success. His strategic thinking drives operational excellence and sustainable development. He is committed to delivering value-driven solutions that enhance client satisfaction. Under his leadership, Ekakshar Buildtech continues to expand and evolve. Deepak believes in adapting to market trends and leveraging opportunities for growth. His expertise in planning and execution plays a crucial role in the company’s success. With a future-focused approach, he is instrumental in driving Ekakshar Buildtech forward."
     },
     {
       "id": "SAHIL-CHAHAR",
@@ -126,7 +126,7 @@
       "id": "Hr-Manager",
       "img": "/aarju.webp",
       "innerimg": "/aarju.webp",
-      "head": "Ms. AARJU SNGH",
+      "head": "Ms. AARJU SINGH",
       "txt": "Hr Manager",
       "LinkedinLink": "https://www.linkedin.com/in/aarju-singh-89507221a/",
       "facebooklink": "",
@@ -139,20 +139,6 @@
       "quote": "Human Resources is about nurturing talent, shaping teams, and creating an environment where people can thrive and succeed.",
       "bio":"Aarju Singh is a dynamic professional with extensive experience in Human Resource Management, making her an integral part of the Ekakshar Buildtech team. As the Senior HR Manager, she plays a key role in cultivating a positive workplace environment, driving talent acquisition, and implementing innovative employee engagement strategies. Her expertise in streamlining HR processes and developing effective policies has significantly contributed to aligning organizational objectives with employee growth. Tannu excels in areas such as recruitment, performance management, training, and compliance, ensuring a seamless experience for employees and management alike. Known for her strategic thinking, empathetic leadership, and commitment to excellence, Tannu is dedicated to fostering a culture of collaboration and innovation. Under her guidance, Ekakshar Buildtech continues to flourish as an organization that prioritizes professional growth and employee well-being."
      },
-    {
-      "id": "Admin-Manager",
-      "img": "/swati.webp",
-      "innerimg": "/swati.webp",
-      "head": "Ms. SWATI SINGH",
-      "txt": "Admin Manager",
-      "logo": "./logo_leader.webp",
-      "circleImage": "/ekaksharcircle.webp",
-      "arrowImage": "/leaderarrowimg.webp",
-      "title" : "Swati Singh | Admin Manager - Ekakshar Buildtech",
-      "description" : "Meet Swati Singh, Admin Manager at Ekakshar Buildtech Pvt. Ltd., ensuring efficient operations and supporting the company’s real estate development projects.",
-      "canonical": "https://ekaksharbuildtech.com/leader/Admin-Manager",
-      "quote":"The backbone of any organization, admin ensures smooth operations, empowering teams to perform at their highest potential."
-    },
     {
       "id": "Administrator",
       "img": "/shivam.jpeg",

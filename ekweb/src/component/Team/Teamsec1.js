@@ -20,14 +20,6 @@ const leaderData = [
     link: "/our-cmd-founder",
   },
   {
-    imgSrc: "./sanjeev-circle.webp",
-    name: "MR. Sanjeev Agarwal",
-    designation: "CEO",
-    LinkedinLink: "https://www.linkedin.com/in/sanjeev-kumar-agarwal-91856a17/",
-    bio: "Mr. Sanjeev Kumar Agarwal, CEO of Ekakshar Buildtech Pvt. Ltd., has over 25 years of expertise in legal, finance,",
-    link: "/our-ceo",
-  },
-  {
     imgSrc: "./deepak-cicle.webp",
     name: "Mr. Deepak Sharma",
     bio: "Mr. Deepak Sharma, with over 15 years of experience in the real estate sector, plays a pivotal role in land procurement for",
@@ -42,18 +34,18 @@ const Teamsec1 = () => {
   };
   return (
     <div>
-    <div className=' teambackground-video'>
-    <video
-      src={content.videoSrc}
-      className='teamhero-video'
-      alt={content.videoAlt}
-      autoPlay
-      loop
-      muted
-    />
-    <div className='backgroundbottomdiv'>Teams</div>
-  </div>
-  <div className="teampadd mt-4">
+      <div className=" teambackground-video">
+        <video
+          src={content.videoSrc}
+          className="teamhero-video"
+          alt={content.videoAlt}
+          autoPlay
+          loop
+          muted
+        />
+        <div className="backgroundbottomdiv">Teams</div>
+      </div>
+      <div className="teampadd mt-4">
         <h1 className="main-subheading">INTRODUCE YOURSELF TO </h1>
         <h2 className="main-heading mt-3">Our Leaders</h2>
         <Swiper
@@ -70,7 +62,7 @@ const Teamsec1 = () => {
               slidesPerView: 2,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 2,
             },
           }}
         >
@@ -80,11 +72,13 @@ const Teamsec1 = () => {
                 <div className="container">
                   <div className="center mt-4">
                     <div className="teamcard">
-                      <div className="center"><img
-                        src={leader.imgSrc}
-                        className="Team-card-img"
-                        alt={leader.name}
-                      /></div>
+                      <div className="center">
+                        <img
+                          src={leader.imgSrc}
+                          className="Team-card-img"
+                          alt={leader.name}
+                        />
+                      </div>
                       <div className="">
                         <h3 className="team-name1 mt-3">{leader.name}</h3>
                       </div>
@@ -115,7 +109,7 @@ const Teamsec1 = () => {
           ))}
         </Swiper>
       </div>
-  </div>
+    </div>
   );
 };
 
